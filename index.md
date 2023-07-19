@@ -1,2 +1,3 @@
-# Blaze im High everyone! Wait, Thats not right....
-# Hi everyone... Im Blaze! 👋
+---
+layout: default
+---
