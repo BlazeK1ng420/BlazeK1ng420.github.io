@@ -1,4 +1,5 @@
-Here you can say lots of fun things about your site.
+# Blaze I'm high 👋. No that's not right..
+# HI! I'm Blaze! Okay thats better.p
 
 Maybe say a some things about yourself.
 
