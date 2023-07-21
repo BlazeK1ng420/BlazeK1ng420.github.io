@@ -2,7 +2,7 @@
 const chars = "BlazeK1ng420";
 //✶
 // Set up the canvas
-const canvas = document.createElement("canvas");
+const canvas = document.createElement("Blazetrix");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
