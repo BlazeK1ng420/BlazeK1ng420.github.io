@@ -9,7 +9,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 var txts = "{{site.bgtext}}";
 txts = txts.split("");
-var font_size = 12;
+var font_size = 16;
 var columns = c.width / font_size;
 var drops = [];
 for (var x = 0; x < columns; x++) drops[x] = 1;
@@ -26,5 +26,5 @@ function draw() {
     drops[i]++;
   }
 }
-setInterval(draw, 20);
+setInterval(draw, 35);
 </script>
