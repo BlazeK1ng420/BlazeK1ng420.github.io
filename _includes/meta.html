@@ -6,7 +6,6 @@
 <meta content='#000000' name='theme-color'/>
 <meta name="keywords" content="{{site.site-keywords}}">
 <title>{{site.title}}{% if page.title %} | {{page.title}}{% endif %}</title>
-
 <!-- Open Graph general (Facebook, Pinterest & Google+) -->
 <meta name="og:title" content="{{site.title}}{% if page.title %} | {{page.title}}{% endif %}">
 <meta name="og:description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
@@ -31,16 +30,11 @@
 <meta name="author" content="{{site.author-name}}"/>
 <meta itemprop="description" content="{% unless page.layout == 'post' %}{{site.description}}{% else %}{{page.description}}{% endunless %}">
 <meta itemprop="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google-analytics}}"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', '{{site.google-analytics}}');
 </script>

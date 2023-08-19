@@ -1,0 +1,75 @@
+<html>
+<head></head>
+<body>
+<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+    <div class="container">
+        <!-- logo or branding image on left side -->
+        <div class="navbar-brand">
+            <img src="https://lxhom.github.io/mutant-html/assets/svg/cannabis_leaf.svg#generated_with_https://mutant.us.to/" alt="cannabis leaf" title="cannabis leaf" style="width: calc(3 * var(--emoji-scale, 1.4em)); height: calc(2 * var(--emoji-scale, 1.4em)); margin: 0; display: inline;"/>
+            <a class="navbar-item" href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                <strong>{{site.title}}</strong>
+            </a>
+            next
+            <div class="navbar-burger" data-target="navbar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
+        <div class="navbar-menu has-background-black" id="navbar-menu">
+            <!-- navbar items | left side -->
+            <!-- <div class="navbar-start">
+            </div> -->
+            <!-- navbar items | right side -->
+            <div class="navbar-end">
+                <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
+                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
+                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
+                href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
+                <a class="navbar-item {% if page.layout == 'poetry' %}is-active{% endif %}"
+                href="{{site.url}}{{site.baseurl}}/poetry">POETRY</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">MORE</a>
+                    <div class="navbar-item has-background-black is-left">
+                        {% for sitepage in site.html_pages %}
+                        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
+                        <a href="{{sitepage.url | absolute_url}}"
+                        class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+                        {{sitepage.title}}
+                        </a>
+                        {% endunless %}
+                        {% endfor %}
+                        <!-- <hr class="navbar-divider">
+                    <a class="navbar-item">
+                      Report an issue
+                    </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Bulma Navbar JS -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        /* Get all "navbar-burger" elements */
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        /* Check if there are any navbar burgers */
+        if ($navbarBurgers.length > 0) {
+            /* Add a click event on each of them */
+            $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+                    /* Get the target from the "data-target" attribute */
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+                    /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

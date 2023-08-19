@@ -1,7 +1,5 @@
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
-        MORE
-    </a>
+    <a class="navbar-link">MORE</a>
     <div class="navbar-dropdown has-background-black is-left">
         {% for sitepage in site.html_pages %}
         {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}

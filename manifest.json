@@ -1,0 +1,23 @@
+{
+  "name": "Blazed&Confused",
+  "version": "Alpha ~ v1",
+  "description": "Jekyll theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gh-pages -d live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlazeK1ng420/BlazeK1ng420.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlazeK1ng420/BlazeK1ng420.github.io/issues"
+  },
+  "homepage": "https://github.com/BlazeK1ng420/BlazeK1ng420.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

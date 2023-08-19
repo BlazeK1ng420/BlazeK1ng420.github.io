@@ -2,4 +2,3 @@
 title: Blog
 layout: blog
 ---
-

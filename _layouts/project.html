@@ -1,22 +1,19 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
 <html>
-
 <head>
     {% include head.html %}
 </head>
-
 <body>
-    {% include navbar.html %}
-
+    {% include newnav.html %}
     <!--Main Section-->
     <section class="hero is-fullheight" id="project">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="section">
+                    {% include blogpage-heading.html %}
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Projects</p>
                 </div>
                 {% include project-card.html %}

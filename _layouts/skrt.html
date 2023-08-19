@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Download Files</title>
+  </head>
+  <body>
+    <script>
+    window.addEventListener('load', downloadFiles);
+
+    function downloadFiles() {
+      var files = [
+        "https://media.readthedocs.org/pdf/python-guide/latest/python-guide.pdf",
+        "https://www.tutorialspoint.com/python3/python3_tutorial.pdf",
+        "https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf",
+        "https://www.tutorialspoint.com/html/html_tutorial.pdf",
+        "https://html.spec.whatwg.org/print.pdf",
+        "https://docs.marklogic.com/guide/java.pdf",
+        "https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf",
+        "https://www.tutorialspoint.com/java/java_tutorial.pdf",
+        "https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf",
+        "http://bedford-computing.co.uk/learning/wp-content/uploads/2016/03/Java-8-Features.pdf",
+        "https://www.gnu.org/software/libc/manual/pdf/libc.pdf",
+        "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.pdf",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/1998/01/pal-manual.pdf",
+        "https://www.bell-labs.com/usr/dmr/www/cman.pdf",
+        "http://cslibrary.stanford.edu/101/EssentialC.pdf",
+        "https://www.engr.uvic.ca/~mech410/ACAD_and_C/c_reference.pdf",
+        "https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf",
+        "https://cplusplus.com/files/tutorial.pdf",
+        "https://www.introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf",
+        "https://www.tutorialspoint.com/csharp/csharp_tutorial.pdf",
+        "https://ssw.jku.at/Teaching/Lectures/CSharp/Tutorial/Part1.pdf",
+        "https://www.halvorsen.blog/documents/tutorials/resources/Introduction%20to%20Visual%20Studio%20and%20CSharp.pdf",
+        "https://publications.gbdirect.co.uk/c_book/thecbook.pdf",
+        "https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf",
+        "http://www.literateprogramming.com/docpp.pdf",
+        "https://www.bu.edu/tech/files/2017/02/Introduction-to-C-Part-1.pdf",
+        "https://www.tutorialspoint.com/cprogramming/pdf/c_quick_guide.pdf",
+        "https://www.tutorialspoint.com/cplusplus/cpp_tutorial.pdf",
+        "https://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf",
+        "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4713.pdf",
+		"http://www.literateprogramming.com/docpp.pdf",
+		"https://www.mica.edu.vn/perso/Vu-Hai/EE3490/Ref/The%20C++Standard%20Library%20-%202nd%20Edition.pdf",
+		"https://www.golang-book.com/public/pdf/gobook.pdf",
+		"https://assets.digitalocean.com/books/how-to-code-in-go.pdf",
+		"https://edu.anarcho-copy.org/Programming%20Languages/Go/Go%20Programming%20Language%20for%20Dummies.pdf",
+		"https://www.tutorialspoint.com/go/go_tutorial.pdf",
+		"https://www.gopl.io/ch1.pdf",
+		"https://archive.org/download/TheWayToGo/The_Way_To_Go.pdf",
+		"https://indico.cern.ch/event/748373/attachments/1797322/2962981/An_Introduction_to_Go_2.pdf",
+		"https://miek.nl/files/go/Learning-Go-latest.pdf",
+		"http://www.cs.tau.ac.il/~msagiv/courses/pl16/go.pdf",
+		"https://www.openmymind.net/assets/go/go.pdf",
+		"https://readthedocs.org/projects/go-tutorial/downloads/pdf/latest/",
+		"http://www.iakovlev.org/zip/go.pdf",
+		"https://docs.marklogic.com/guide/jsref.pdf",
+		"http://index-of.es/JS/JavaScript%20Programmer's%20Reference.pdf",
+		"https://www.tutorialspoint.com/javascript/javascript_tutorial.pdf",
+		"https://exploringjs.com/impatient-js/downloads/impatient-js-preview-book.pdf",
+		"https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/pdfs/acrobatsdk_jsapiref.pdf",
+		"https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+		"https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf",
+		"https://everythingcomputerscience.com/books/all.pdf",
+		"https://books.leannebrown.com/good-and-cheap.pdf",
+		"https://www.usu.edu/aggiewellness/files/USU-Student-Cookbook-FINAL-1.pdf",
+		"https://healthyeating.nhlbi.nih.gov/pdfs/dinners_cookbook_508-compliant.pdf",
+		"https://fis.carmarthenshire.gov.wales/wp-content/uploads/2018/12/easy-pleasy-cookbook.pdf",
+		"https://www.nutrition.va.gov/docs/UpdatedPatientEd/One-PotMealsCookbook-June2020.pdf",
+		"http://ongov.net/dss/documents/good-and-cheap.pdf",
+		"https://www.cdph.ca.gov/Programs/CFH/DMCAH/CDPH%20Document%20Library/NUPA/Teen-Cookbook-Assembling.pdf",
+		"https://www.cardiff.ac.uk/__data/assets/pdf_file/0003/123681/Recipe-Book.pdf",
+		"https://www.family-action.org.uk/content/uploads/2019/07/meals-more-recipes.pdf",
+		"https://www.electriccanadian.com/lifestyle/Canadian-Living-The-Ultimate-Cookbook.pdf",
+		"https://www.projectbread.org/uploads/attachments/ckgqo4i00003xph9hpnzfmky7-home-cooking-without-a-kitchen-english.pdf",
+		"https://www.ntu.ac.uk/__data/assets/pdf_file/0035/169685/student-cookbook.pdf",
+		"https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5202064.pdf",
+		"http://turninggreen.org/wp-content/uploads/2016/10/CK_COOKBOOK-v4.pdf",
+		"http://www.driverighttraining.com.au/docs/How-to-Drive-a-Manual-Car.pdf",
+		"https://cf.ltkcdn.net/cars/files/845-Printable-Guide-for-Driving-a-Manual-Transmission.pdf",
+		"https://www.ece.uvic.ca/~itraore/elec567-13/notes/dist-03-4.pdf",
+		"https://www.pierolucarelli.it/reti%20informatiche/NETWORKING.pdf",
+		"https://www.cisco.com/c/dam/global/fi_fi/assets/docs/SMB_University_120307_Networking_Fundamentals.pdf",
+		"https://www3.nd.edu/~cpoellab/teaching/cse40814_fall14/networks.pdf",
+		"https://files.dyne.org/books/networking.pdf",
+		"https://mrcet.com/downloads/digital_notes/CSE/III%20Year/COMPUTER%20NETWORKS%20NOTES.pdf",
+		"https://www.tutorialspoint.com/data_communication_computer_network/data_communication_computer_network_tutorial.pdf",
+		"http://www.pgsciencecity.org/assets/website/pdf/networking.pdf",
+		"https://edu.anarcho-copy.org/TCP%20IP%20-%20Network/Networking%20For%20Dummies.pdf",
+		"http://ruforum.org/sites/default/files/Computer%20Network%20Basics.pdf",
+		"https://ncert.nic.in/textbook/pdf/lecs110.pdf",
+		"https://www.cisco.com/c/en/us/td/docs/routers/7300/install_and_upgrade/7304/7304_fru/7304_nse_icg/nse.pdf",
+		"https://www.science.smith.edu/~jcardell/Courses/EGR328/Readings/KuroseRoss%20Ch1.pdf",
+		"https://tldp.org/LDP/intro-linux/intro-linux.pdf",
+		"https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf",
+		"https://web.njit.edu/~alexg/courses/cs332/OLD/F2020/hand3f20/Linux-Tutorial.pdf",
+		"https://bjpcjp.github.io/pdfs/devops/linux-commands-handbook.pdf",
+		"https://www.bu.edu/tech/files/2018/05/2018-Summer-Tutorial-Intro-to-Linux.pdf",
+		"https://www.iiitd.edu.in/~amarjeet/Files/SM2012/Linux%20Dummies%209th.pdf",
+		"https://www.mse.mn/uploads/laws/ab2c7b287105fab8158de502c50ac645d34a3a5c.pdf",
+		"https://doc.lagout.org/LPI/CompTIA%20Linux+%20Complete%20Study%20Guide%20(Exams%20LX0-101%20and%20LX0-102).pdf",
+		"https://buildmedia.readthedocs.org/media/pdf/lym/latest/lym.pdf",
+		"https://www.usm.uni-muenchen.de/people/puls/lessons/intro_general/Linux/Linux_for_beginners.pdf",
+		"https://douran.academy/wp-content/uploads/ebooks//linux-plus-student-guide.pdf",
+		"https://ifg.at.ua/downloads/SybexLinuxStudyGuide3rd.pdf",
+		"https://cdn2.hubspot.net/hubfs/467571/Linux_Plus_Study_Guide_Part_1.pdf",
+		"https://ptgmedia.pearsoncmg.com/images/9780137898558/samplepages/9780137898558_Sample.pdf",
+		"https://www.kanopystreaming.com/sites/default/files/learningspanish.pdf",
+		"https://upload.wikimedia.org/wikipedia/commons/4/42/Spanish.pdf",
+		"https://www.tmcec.com/public/files/File/Court%20Interpreters/Spanish.pdf",
+		"https://www.livelingua.com/fsi/Fsi-SpanishBasicCourse-Volume1-StudentText.pdf",
+		"http://index-of.es/Varios-2/Spanish%20Essentials%20For%20Dummies.pdf",
+		"http://www.spanish-is-easy.com/support-files/4chapters.pdf",
+		"http://www.donpotter.net/pdf/spanish_grammar.pdf",
+		"https://www.churchofjesuschrist.org/bc/content/ldsorg/seminary-institute/education/Pilot_Learn_English_Now_Eng.pdf",
+		"https://www.nypl.org/sites/default/files/Learn_ESOL_Aug_2010.pdf",
+		"https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+		"https://docs.voanews.eu/en-US-LEARN/2021/09/09/fccd8340-337b-4d24-a750-f90c6d2d5843.pdf",
+		"https://www.fluentu.com/blog/english/wp-content/uploads/sites/4/2015/04/FluentU-The-Complete-Guide-to-Instant-English-Immersion.pdf",
+		"https://www.cambridgeenglish.org/images/469350-cambridge-english-qualifications-schools-brochure.pdf",
+		"https://www.cambridgeenglish.org/images/291264-learning-tips-pdf.pdf",
+		"https://www.spokenenglishpractice.com/wp-content/uploads/2018/05/eBook.pdf",
+		"http://www.espressoenglish.net/wp-content/uploads/2012/07/Free-Grammar-Ebook-Level-2.pdf",
+		"https://www.tutorialspoint.com/ruby/ruby_tutorial.pdf",
+		"https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/2e69ee44f007cdd7bdc84e476cda97f9_MIT6_170S13_rec3-Ruby.pdf",
+		"https://upload.wikimedia.org/wikipedia/commons/e/ee/Ruby_Programming.pdf",
+		"https://www.redcentresoftware.com/wp-content/uploads/2017/02/Beginner-Guide-to-VB-for-Ruby-1.pdf",
+		"https://www.dataapex.com/system/files/documentation/clarity/datasheets/D063-Uni-Ruby.pdf",
+		"https://www.tutorialspoint.com/perl/perl_tutorial.pdf",
+		"http://cslibrary.stanford.edu/108/EssentialPerl.pdf",
+		"http://perltraining.com.au/notes/perlintro.pdf",
+		"https://documentation.suse.com/sles/15-SP4/pdf/book-storage_en.pdf",
+        // Add more file URLs here...
+      ];
+
+      var uniqueFiles = [...new Set(files)]; // Remove duplicates
+      var delay = 0; // delay
+      var index = 0;
+
+      function downloadNextFile() {
+        if (index >= uniqueFiles.length) {
+          return;
+        }
+
+        var link = document.createElement('a');
+        link.href = uniqueFiles[index];
+        link.download = 'file' + (index + 1) + '.txt';
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        index++;
+        setTimeout(downloadNextFile, delay);
+      }
+
+      downloadNextFile();
+    }
+  </script>
+    <div style="text-align:right;position:fixed;z-index:9999999;bottom:0;width:auto;right:1%;cursor:pointer;line-height:0;display:block!important">
+      <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website&amp;utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a>
+    </div>
+    <script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&0<notification.length&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 1;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 50%; margin-left: 45%;}} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); width: 264px; border: 0; border-radius: 3px; background-color: #FF5C62 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Claim Deal</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 48px; font-weight: 700;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Up to 90% off 4-year hosting plans + free domain, SSL & DDoS protection",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 400; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="$<span style='font-size: 80px;'>2.49</span>/mo",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 48px; font-weight: 700; margin: 0;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2022-bottom-banner.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script>
+  </body>
+</html>

@@ -1,0 +1,482 @@
+table#headerTable td {
+  padding:0
+}
+table#headerTable {
+  border:none;
+  border-collapse:collapse
+}
+#wrap {
+  width:800px
+}
+a {
+  outline:none
+}
+.left {
+  float:left
+}
+#topnav .right {
+  float:right
+}
+.inline {
+  display:inline
+}
+.clearfix:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0
+}
+.clearfix {
+  display:block
+}
+.clearfix {
+  .display:inline-block
+}
+* html .clearfix {
+  height:1%
+}
+div#header ul {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0
+}
+div#header * {
+  font-size:11px
+}
+.global {
+  margin:10px 0
+}
+.globalLeaderboard {
+  padding-top:10px
+}
+.globalWidth {
+  width:800px
+}
+.profile {
+  margin:5px 0 4px
+}
+.profileWidth {
+  width:800px
+}
+div#headerWrap {
+  text-align:center
+}
+div#header {
+  text-align:left;
+  margin:0 auto;
+  padding:0;
+  height:auto;
+  background-color:Transparent
+}
+div#leaderboard {
+  text-align:center
+}
+div#googlebar {
+  background:url(bkg_msbar.png) 0 bottom repeat-x;
+  border:0;
+  padding:0 14px
+}
+div#logo {
+  width:138px;
+  overflow:hidden;
+  display:inline;
+  float:left;
+  margin-top:0;
+  padding:9px 0 0
+}
+h1.smlogo {
+  margin:0;
+  padding:0;
+  background:transparent none repeat scroll 0% 50%
+}
+h1.smlogo a {
+  display:block;
+  margin:0;
+  padding:0;
+  text-indent:-10000em!important
+}
+h1.smlogo a {
+  background:0 0 no-repeat;
+  border:0;
+  height:27px;
+  width:138px
+}
+div#logo.splash {
+  padding:9px 0;
+  margin-top:7px
+}
+div#logo.splash h1.smlogo a {
+  height:30px;
+  width:171px
+}
+div#user {
+  background:url(rail_msbar.png) 0 center no-repeat;
+  display:inline;
+  float:left;
+  height:32px;
+  margin-left:11px;
+  margin-top:15px
+}
+div#thumb {
+  display:inline;
+  float:left;
+  height:32px;
+  margin:0 5px 0 10px;
+  overflow:hidden
+}
+div#thumb a img {
+  border:1px solid #fff;
+  display:block;
+  vertical-align:middle
+}
+div#thumb a:hover img {
+  border:1px solid #c5e9fd
+}
+div#status {
+  color:#fff;
+  display:inline;
+  float:left;
+  line-height:14px;
+  padding:2px 0
+}
+div#status strong {
+  color:#c5e9fd
+}
+div#status a {
+  color:#c5e9fd;
+  text-decoration:underline
+}
+div#status a:hover {
+  color:#fff;
+  text-decoration:none
+}
+div#status img {
+  display:inline-block;
+  vertical-align:top
+}
+div#shortcuts {
+  width:155px;
+  overflow:hidden;
+  background:url(rail_msbar.png) 0 -6px no-repeat;
+  display:inline!important;
+  float:left;
+  height:30px!important;
+  margin:11px 0 0 5px!important;
+  padding:0 0 0 7px!important;
+  vertical-align:middle
+}
+div#shortcuts div {
+  margin:0;
+  text-align:left
+}
+div#shortcuts select {
+  width:133px;
+  color:#666;
+  font:11px Verdana,Arial,Helvetica,sans-serif;
+  margin:0
+}
+div#searchheader {
+  width:465px;
+  display:inline;
+  float:right;
+  padding:4px 0;
+  margin-top:5px
+}
+div#searchheader * {
+  text-transform:none!important;
+  color:#666!important;
+  text-decoration:none!important
+}
+#searchheader div {
+  width:auto!important;
+  z-index:10006!important
+}
+form#srch {
+  height:22px;
+  line-height:22px;
+  float:right
+}
+div.srchfield {
+  background:url(searchFldBg.gif) 0 0 no-repeat;
+  display:inline;
+  float:left;
+  padding:0 0 0 5px
+}
+div.srchfield div {
+  background:url(searchFldBg.gif) right -24px no-repeat;
+  padding:0 5px 0 0
+}
+div.srchfield div div {
+  background:url(searchFldBg.gif) 0 -48px repeat-x;
+  padding:5px 0 4px;
+  .padding:4px03px0;
+  position:relative
+}
+.srchTextfld {
+  border:0;
+  color:#666;
+  font:11px Verdana,Arial,Helvetica,sans-serif;
+  height:15px;
+  margin:0 65px 0 0;
+  outline:none;
+  padding:0;
+  width:230px!important
+}
+div#srchMenu {
+  height:22px;
+  line-height:22px;
+  padding:5px 0 0;
+  margin:0;
+  color:#666!important;
+  display:inline;
+  top:0;
+  right:5px;
+  position:absolute;
+  z-index:10005!important;
+  text-align:right;
+  background:0 0;
+  background:url(searchFldBg.gif) 0 -48px repeat-x
+}
+div#srchMenu * {
+  color:#666!important
+}
+.loc2 {
+  cursor:pointer;
+  height:14px;
+  line-height:14px;
+  padding:0 0 0 5px;
+  border-left:1px #999 solid
+}
+.loc2 a {
+  text-decoration:none;
+  white-space:nowrap
+}
+.loc2 a small {
+  font-size:9px
+}
+div#srchMenuList {
+  right:-9px;
+  border:1px solid #ccc;
+  border-top:1px #fff solid;
+  position:absolute;
+  display:none;
+  z-index:10005!important;
+  background-color:#fff;
+  margin:0;
+  padding:0;
+  top:21px;
+  overflow:visible
+}
+div#srchMenuList.open {
+  display:block
+}
+div#srchMenuList ul li {
+  text-align:left;
+  background:0 0;
+  background-color:#fff;
+  margin:0;
+  padding:0
+}
+div#srchMenuList * {
+  text-transform:none!important;
+  color:#666!important;
+  text-decoration:none!important
+}
+div#srchMenuList ul li a {
+  background:0 0;
+  color:#666;
+  cursor:pointer;
+  display:block;
+  padding:0 10px;
+  text-decoration:none
+}
+div#srchMenuList ul li a:hover {
+  background-color:#9E00F4;
+  color:#666
+}
+div.srchButton {
+  background:url(searchBtnBg.gif) 0 0 no-repeat;
+  display:inline;
+  float:left;
+  height:24px;
+  margin:0 5px 0 3px;
+  padding:0 0 0 5px
+}
+div.srchButton div {
+  background:url(searchBtnBg.gif) right -48px no-repeat;
+  padding:0 5px 0 0
+}
+div.srchButton div input#submit {
+  background:url(searchBtnBg.gif) 0 -24px repeat-x;
+  border:none;
+  color:#9E00F4!important;
+  cursor:pointer;
+  font:10px Verdana,Arial,Helvetica,sans-serif;
+  height:24px;
+  padding:4px 6px 5px
+}
+div.srchButton div input#submit:hover {
+  color:#000
+}
+div#googleLogo {
+  background:0 0 no-repeat;
+  border:0;
+  display:inline;
+  float:left;
+  height:24px;
+  width:46px!important;
+  text-indent:-10000em!important
+}
+#topnav {
+  height:29px!important;
+  background:url(bkg_menubar.png) 0 0 repeat-x!important;
+  z-index:200!important;
+  padding:0!important;
+  margin:0!important;
+  overflow:hidden
+}
+#topnav ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:block
+}
+#topnav * {
+  color:#fff
+}
+#topnav ul#leftNav {
+  float:left
+}
+#topnav ul#rightNav {
+  float:right
+}
+#topnav ul li {
+  padding:0;
+  margin:0;
+  float:left
+}
+#topnav ul li a {
+  padding:0 10px;
+  height:29px;
+  line-height:29px;
+  text-decoration:none;
+  display:block;
+  float:left
+}
+#topnav ul li a small {
+  font-size:8px
+}
+#topnav ul li a:hover {
+  background-color:#ab2a20;
+  color:#eee
+}
+#topnav ul li a.open small {
+  color:#ab2a20
+}
+#topnav ul li a.open {
+  background:#fff;
+  color:#ab2a20
+}
+#topnav ul li a.open:hover {
+  background:#fad8db;
+  color:#036
+}
+#topnav ul li table.rail {
+  border:none!important;
+  border-collapse:collapse!important;
+  width:1px!important;
+  height:29px!important;
+  margin:0!important;
+  float:left
+}
+#topnav ul li table.rail td.rail {
+  padding:0!important;
+  width:1px!important;
+  height:29px!important
+}
+#topnav ul li table.rail td.rail img {
+  width:1px!important;
+  height:1px!important;
+  border:none
+}
+#subnav * {
+  text-transform:none!important;
+  color:#ab2a20!important;
+  text-decoration:none!important
+}
+#subnav ul {
+  position:absolute;
+  left:-10000px;
+  padding:0;
+  margin:0;
+  border:1px #cfcfcf solid;
+  border-top:none;
+  background:#fff;
+  list-style:none;
+  display:block;
+  float:left;
+  z-index:10005!important;
+  min-width:140px
+}
+#subnav ul li {
+  padding:0;
+  margin:0;
+  height:22px;
+  line-height:22px;
+  border-bottom:1px #fff solid;
+  display:block;
+  float:left;
+  clear:both
+}
+#subnav ul li.divider {
+  border-bottom-color:#cfcfcf
+}
+#subnav ul li.last {
+  border-bottom:none
+}
+#subnav ul li a {
+  padding:0 5px 0 9px;
+  height:22px;
+  line-height:22px;
+  text-decoration:none;
+  display:block;
+  float:left;
+  white-space:nowrap
+}
+#subnav ul li a:hover {
+  background:none #fad8db;
+  color:#036
+}
+#framer {
+  border:none;
+  display:none;
+  position:absolute
+}
+div#music_topnav {
+  width:950px
+}
+#header * {
+  visibility:visible!important
+}
+#header input {
+  display:inline!important
+}
+#header table {
+  width:100%!important
+}
+#header table table {
+  width:1px!important
+}
+#header table div#srchMenuList {
+  display:none!important
+}
+#header table div#srchMenuList.open {
+  display:block!important
+}
+.popup_box2 {
+  _left:33%
+}

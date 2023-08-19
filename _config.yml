@@ -6,13 +6,13 @@ url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 # Title of the Site
-title: 🔥Blazed & Confused🔥
+title: 🔥BlazeK1ngdom🔥
 # Description of the Site
 description: Howd I get here... and who sent you?
 # URL of Image of the Site
 site-image: /assets/images/bluepurp.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Blaze, BlazeK1ng, BlazeK1ng420, BlazeK1ngdom, Smoking, Blogging, Coding, Hobby, Android, iOS, Rooting, Rooted, Modding, Apk Modding
 # URL for the Image of custom Favicon
 favicon-url: 
 bgtext: BlazeK1ng420
@@ -37,8 +37,7 @@ spotify_username:
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
-
+disqus-shortname: BlazeK1ng420
 # Name of the Author
 author-name: BlazeK1ng420 / ~Trevor~
 # URL for the Image of the Author
@@ -50,7 +49,7 @@ author-url: https://github.com/BlazeK1ng420
 
 # SASS
 sass:
-  sass_dir: _sass
+  sass_dir: /assets/_sass
   style: compressed
 
 # Build settings
@@ -60,7 +59,6 @@ plugins:
 
 # Permalink
 permalink: "blog/:title"
-
 # Compress
 compress_html:
   clippings: all

@@ -1,9 +1,4 @@
 <footer id="footer">
-    <!--Footer Button-->
-    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
-        <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
-    </div>
-    <!--Footer Main Section-->
     <div class="has-background-grey-darker">
         <div class="container columns">
             <!--Name Section-->
@@ -28,8 +23,8 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
+                {% for sitepage in site.html_pages offset: 2 %}
+                {% unless sitepage.url == '/' or sitepage.url == '/404' or sitepage.url == '/blog' or sitepage.url == '/rekt' or sitepage.url == '/project' or sitepage.url == '/og' or sitepage.url == '/poetry' or sitepage.url == '/poetry/first' %}
                 <li>
                     <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
@@ -50,8 +45,9 @@
                 {% endfor %}
             </div>
         </div>
-       <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a href="https://github.com/BlazeK1ng420" target="_blank" rel="noopener noreferrer">BlazeK1ng420</a> ~ I <i class="fas fa-heart has-text-danger"></i> you so much <a href="https://blazek1ng420.github.io/blog/Poem" target="_blank" rel="noopener noreferrer">Louisa<3</a>
+       <div class="has-background-black has-text-centered has-text-primary" id="credits">
+       <p>&copy;{{ "now" | date: "%Y" }} || <a href="https://github.com/BlazeK1ng420" target="_blank" rel="noopener noreferrer">BlazeK1ng420</a> ~ I <!--<i class="fas fa-heart has-text-danger"></i>-->💜 you so much <a href="https://blazek1ng420.github.io/blog/Poem" target="_blank" rel="noopener noreferrer">Louisa&lt;3</a>
+       </p>
       </div>
     </div>
 </footer>

@@ -1,3 +1,4 @@
 ---
-layout: default
+title: BlazeK1ngdom
+layout: index
 ---
