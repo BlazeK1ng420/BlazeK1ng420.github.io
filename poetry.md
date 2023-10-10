@@ -1,4 +1,0 @@
----
-title: Poetry
-layout: poetry
----
