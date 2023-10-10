@@ -19,27 +19,9 @@
       <div class="container-fluid"><a class="navbar-brand" href="#">🔥BlazeK1ngdom🔥</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li><a class="navbar-item has-text-primary {% if page.layout == 'index' %}is-active{% endif %}" href="{% if page.layout == 'index' %}{{sitepage.url}}{{site.baseurl}}/#{% else %}{{sitepage.url}}{{site.baseurl}}/{% endif %}">HOME</a></li>
-            <li><a class="navbar-item has-text-primary {% if page.layout == 'highspace' %}is-active{% endif %}" href="{% if page.layout == 'highspace' %}{{sitepage.url}}{{site.baseurl}}/#{% else %}{{sitepage.url}}{{site.baseurl}}/{% endif %}">BLAZE</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle has-text-primary" href="$" data-toggle="dropdown">BLOG STUFF</a>
-              <ul class="dropdown-menu">
-                <li class="navbar-item has-text-primary">    ~Rearranging for next update~    </li>
-                <li><a class="navbar-item has-text-primary {% if page.layout == 'blog' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/blog">BLOG</a></li>
-                <li><a class="navbar-item has-text-primary {% if page.layout == 'poetry' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/poetry">POETRY</a></li>
-                <li><a class="navbar-item has-text-primary {% if page.layout == 'project' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/project.html">PROJECTS</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle has-text-primary" href="#" data-toggle="dropdown">MORE STUFFS</a>
-              <ul class="dropdown-menu">
-                {% for sitepage in site.html_pages %}
-                {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' or sitepage.url == '/rekt' or sitepage.url == '/project' or sitepage.url == '/og' or sitepage.url == '/poetry' or sitepage.url == '/poetry/first' %}
-                <li><a href="{{sitepage.url | absolute_url}}" class="navbar-item has-text-primary {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">{{sitepage.title}}</a></li>
-                {% endunless %}
-                {% endfor %}
-              </ul>
-            </li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="/highspace.html">Blaze</a></li>
+            <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
             <div class="dropdown"><button class="nav-link dropdown-toggle bi-palette-fill" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false"> Select Theme </button>
               <ul class="dropdown-menu scrollable-menu" aria-labelledby="themeDropdown"><!-- Options will be dynamically added here -->
                 <style> </style>
