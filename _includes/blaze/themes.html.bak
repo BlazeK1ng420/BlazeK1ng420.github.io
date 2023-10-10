@@ -1,0 +1,8 @@
+<li class="nav-item dropdown" data-bs-theme="light"><a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme"> <i class="bi bi-circle-half"></i> <span class="d-lg-none ms-2">Toggle theme</span> </a>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false"> <i class="bi bi-sun-fill"></i><span class="ms-2">Light</span> </button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true"> <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Dark</span> </button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="other" aria-pressed="true"> <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Purpz</span> </button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light-quartz" aria-pressed="true"> <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Light-Quartz</span> </button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark-quartz" aria-pressed="true"> <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Dark-Quartz</span> </button></li>
+  </ul></li>
