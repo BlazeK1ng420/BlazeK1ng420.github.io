@@ -1,4 +1,0 @@
----
-title: Themer
-layout: themer
----
