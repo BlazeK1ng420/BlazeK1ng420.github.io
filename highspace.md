@@ -1,4 +1,0 @@
----
-title: HighSpace
-layout: highspace
----
