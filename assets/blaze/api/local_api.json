@@ -1,0 +1,205 @@
+{
+  "version": "5.3.2",
+  "themes": [
+    {
+      "name": "Cerulean",
+      "description": "A calm blue sky",
+      "css": "assets/api/themes/cerulean.css",
+      "cssMin": "assets/api/themes/cerulean.min.css",
+      "scss": "assets/api/themes/scss/cerulean.scss",
+      "scssVariables": "assets/api/themes/scss/cerulean_variables.scss"
+    },
+    {
+      "name": "Cosmo",
+      "description": "An ode to Metro",
+      "css": "assets/api/themes/cosmo.css",
+      "cssMin": "assets/api/themes/cosmo.min.css",
+      "scss": "assets/api/themes/scss/cosmo.scss",
+      "scssVariables": "assets/api/themes/scss/cosmo_variables.scss"
+    },
+    {
+      "name": "Cyborg",
+      "description": "Jet black and electric blue",
+      "css": "assets/api/themes/cyborg.css",
+      "cssMin": "assets/api/themes/cyborg.min.css",
+      "scss": "assets/api/themes/scss/cyborg.scss",
+      "scssVariables": "assets/api/themes/scss/cyborg_variables.scss"
+    },
+    {
+      "name": "Darkly",
+      "description": "Flatly in night mode",
+      "css": "assets/api/themes/darkly.css",
+      "cssMin": "assets/api/themes/darkly.min.css",
+      "scss": "assets/api/themes/scss/darkly.scss",
+      "scssVariables": "assets/api/themes/scss/darkly_variables.scss"
+    },
+    {
+      "name": "Flatly",
+      "description": "Flat and modern",
+      "css": "assets/api/themes/flatly.css",
+      "cssMin": "assets/api/themes/flatly.min.css",
+      "scss": "assets/api/themes/scss/flatly.scss",
+      "scssVariables": "assets/api/themes/scss/flatly_variables.scss"
+    },
+    {
+      "name": "Journal",
+      "description": "Crisp like a new sheet of paper",
+      "css": "assets/api/themes/journal.css",
+      "cssMin": "assets/api/themes/journal.min.css",
+      "scss": "assets/api/themes/scss/journal.scss",
+      "scssVariables": "assets/api/themes/scss/journal_variables.scss"
+    },
+    {
+      "name": "Litera",
+      "description": "The medium is the message",
+      "css": "assets/api/themes/litera.css",
+      "cssMin": "assets/api/themes/litera.min.css",
+      "scss": "assets/api/themes/scss/litera.scss",
+      "scssVariables": "assets/api/themes/scss/litera_variables.scss"
+    },
+    {
+      "name": "Lumen",
+      "description": "Light and shadow",
+      "css": "assets/api/themes/lumen.css",
+      "cssMin": "assets/api/themes/lumen.min.css",
+      "scss": "assets/api/themes/scss/lumen.scss",
+      "scssVariables": "assets/api/themes/scss/lumen_variables.scss"
+    },
+    {
+      "name": "Lux",
+      "description": "A touch of class",
+      "css": "assets/api/themes/lux.css",
+      "cssMin": "assets/api/themes/lux.min.css",
+      "scss": "assets/api/themes/scss/lux.scss",
+      "scssVariables": "assets/api/themes/scss/lux_variables.scss"
+    },
+    {
+      "name": "Materia",
+      "description": "Material is the metaphor",
+      "css": "assets/api/themes/materia.css",
+      "cssMin": "assets/api/themes/materia.min.css",
+      "scss": "assets/api/themes/scss/materia.scss",
+      "scssVariables": "assets/api/themes/scss/materia_variables.scss"
+    },
+    {
+      "name": "Minty",
+      "description": "A fresh feel",
+      "css": "assets/api/themes/minty.css",
+      "cssMin": "assets/api/themes/minty.min.css",
+      "scss": "assets/api/themes/scss/minty.scss",
+      "scssVariables": "assets/api/themes/scss/minty_variables.scss"
+    },
+    {
+      "name": "Morph",
+      "description": "A neumorphic layer",
+      "css": "assets/api/themes/morph.css",
+      "cssMin": "assets/api/themes/morph.min.css",
+      "scss": "assets/api/themes/scss/morph.scss",
+      "scssVariables": "assets/api/themes/scss/morph_variables.scss"
+    },
+    {
+      "name": "Pulse",
+      "description": "A trace of purple",
+      "css": "assets/api/themes/pulse.css",
+      "cssMin": "assets/api/themes/pulse.min.css",
+      "scss": "assets/api/themes/scss/pulse.scss",
+      "scssVariables": "assets/api/themes/scss/pulse_variables.scss"
+    },
+    {
+      "name": "Quartz",
+      "description": "A glassmorphic layer",
+      "css": "assets/api/themes/quartz.css",
+      "cssMin": "assets/api/themes/quartz.min.css",
+      "scss": "assets/api/themes/scss/quartz.scss",
+      "scssVariables": "assets/api/themes/scss/quartz_variables.scss"
+    },
+    {
+      "name": "Sandstone",
+      "description": "A touch of warmth",
+      "css": "assets/api/themes/sandstone.css",
+      "cssMin": "assets/api/themes/sandstone.min.css",
+      "scss": "assets/api/themes/scss/sandstone.scss",
+      "scssVariables": "assets/api/themes/scss/sandstone_variables.scss"
+    },
+    {
+      "name": "Simplex",
+      "description": "Mini and minimalist",
+      "css": "assets/api/themes/simplex.css",
+      "cssMin": "assets/api/themes/simplex.min.css",
+      "scss": "assets/api/themes/scss/simplex.scss",
+      "scssVariables": "assets/api/themes/scss/simplex_variables.scss"
+    },
+    {
+      "name": "Sketchy",
+      "description": "A hand-drawn look for mockups and mirth",
+      "css": "assets/api/themes/sketchy.css",
+      "cssMin": "assets/api/themes/sketchy.min.css",
+      "scss": "assets/api/themes/scss/sketchy.scss",
+      "scssVariables": "assets/api/themes/scss/sketchy_variables.scss"
+    },
+    {
+      "name": "Slate",
+      "description": "Shades of gunmetal gray",
+      "css": "assets/api/themes/slate.css",
+      "cssMin": "assets/api/themes/slate.min.css",
+      "scss": "assets/api/themes/scss/slate.scss",
+      "scssVariables": "assets/api/themes/scss/slate_variables.scss"
+    },
+    {
+      "name": "Solar",
+      "description": "A spin on Solarized",
+      "css": "assets/api/themes/solar.css",
+      "cssMin": "assets/api/themes/solar.min.css",
+      "scss": "assets/api/themes/scss/solar.scss",
+      "scssVariables": "assets/api/themes/scss/solar_variables.scss"
+    },
+    {
+      "name": "Spacelab",
+      "description": "Silvery and sleek",
+      "css": "assets/api/themes/spacelab.css",
+      "cssMin": "assets/api/themes/spacelab.min.css",
+      "scss": "assets/api/themes/scss/spacelab.scss",
+      "scssVariables": "assets/api/themes/scss/spacelab_variables.scss"
+    },
+    {
+      "name": "Superhero",
+      "description": "The brave and the blue",
+      "css": "assets/api/themes/superhero.css",
+      "cssMin": "assets/api/themes/superhero.min.css",
+      "scss": "assets/api/themes/scss/superhero.scss",
+      "scssVariables": "assets/api/themes/scss/superhero_variables.scss"
+    },
+    {
+      "name": "United",
+      "description": "Ubuntu orange and unique font",
+      "css": "assets/api/themes/united.css",
+      "cssMin": "assets/api/themes/united.min.css",
+      "scss": "assets/api/themes/scss/united.scss",
+      "scssVariables": "assets/api/themes/scss/united_variables.scss"
+    },
+    {
+      "name": "Vapor",
+      "description": "A cyberpunk aesthetic",
+      "css": "assets/api/themes/vapor.css",
+      "cssMin": "assets/api/themes/vapor.min.css",
+      "scss": "assets/api/themes/scss/vapor.scss",
+      "scssVariables": "assets/api/themes/scss/vapor_variables.scss"
+    },
+    {
+      "name": "Yeti",
+      "description": "A friendly foundation",
+      "css": "assets/api/themes/yeti.css",
+      "cssMin": "assets/api/themes/yeti.min.css",
+      "scss": "assets/api/themes/scss/yeti.scss",
+      "scssVariables": "assets/api/themes/scss/yeti_variables.scss"
+    },
+    {
+      "name": "Zephyr",
+      "description": "Breezy and beautiful",
+      "css": "assets/api/themes/zephyr.css",
+      "cssMin": "assets/api/themes/min/zephyr.min.css",
+      "scss": "assets/api/themes/scss/zephyr.scss",
+      "scssVariables": "assets/api/themes/scss/zephyr_variables.scss"
+    }
+  ]
+}
