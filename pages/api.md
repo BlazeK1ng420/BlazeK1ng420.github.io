@@ -1,4 +1,4 @@
 ---
 title: ThemeApi
-layout: blazed_api
+layout: get-lit
 ---
