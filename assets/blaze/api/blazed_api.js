@@ -6,7 +6,7 @@
 */
 (() => {
   'use strict'
-  fetch('/assets/api/local_api.json')
+  fetch('/assets/blaze/api/local_api.json')
     .then(response => response.json())
     .then(data => load(data));
     function load(data) {
