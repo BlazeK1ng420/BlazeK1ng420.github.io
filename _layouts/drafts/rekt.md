@@ -1,4 +1,0 @@
----
-title: Rekt 
-layout: rekt
----
