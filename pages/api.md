@@ -1,4 +1,4 @@
 ---
-title: ThemeApi
+title: Get-Lit
 layout: get-lit
 ---
