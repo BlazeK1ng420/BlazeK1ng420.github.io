@@ -1,0 +1,32 @@
+<style>
+    * {
+        background-color: #1f0048;
+        color: #00e310;
+    }
+</style>
+
+<div id="output">
+</div>
+
+<script>
+ if(output.innerHTML.trim().startsWith("Success") && performance.navigation.type !==1) {
+
+    let count = 1;
+    let key = "count";
+    if (document.cookie.indexOf(key) > -1) {
+        let cookies=document.cookie.split(";");
+        for (let i = 0; i < cookies.length; i++) {
+            let cookie = cookies[i].trim();
+            if (cookie.indexOf(key) === 0) {
+                let value = cookie.split("=")[1];
+                count = parseInt(value) + 1;
+                break;
+            }
+        }
+    }
+
+    document.cookie = key + "=" + count + "; expires=Fri, 31 Dec 9999 23:59:59 UTC; path=/";
+    output.innerHTML+=`\nYou have created ${count} accounts.`;
+
+}
+</script>
