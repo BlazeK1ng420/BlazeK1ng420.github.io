@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Token Display</title>
+    <title id="page-title">Cha-ChaReal-Smooth~</title>
 </head>
+<style>
+    * {
+        background-color: #1c003d;
+        color: #00ea2e;
+    }
+</style>
 <body>
-    <p id="token-display">Token will appear here</p>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <center><p id="show-token">Cha-Cha Real-Smooth~</p></center>
     
     <!-- Your other HTML content goes here -->
 
+    
     <script>
         // Function to get the URL parameter by name
         function getParameterByName(name, url) {
@@ -21,16 +29,15 @@
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
-
-        // Get the token from the URL parameter
         var token = getParameterByName('response');
-
-        // Check if a token is present and update the HTML element
-        var tokenDisplay = document.getElementById('token-display');
+        var showTitle = document.getElementById('page-title');
+        var showToken = document.getElementById('show-token');
         if (token !== null) {
-            tokenDisplay.textContent = 'Token: ' + token;
+            showTitle.textContent = 'CaptchaResponseToken';
+            showToken.textContent = 'Token: ' + token;
         } else {
-            tokenDisplay.textContent = 'No token found in the URL';
+            showTitle.textContent = '404 Error';
+            showToken.textContent = 'Page Not Found';
         }
     </script>
 </body>
