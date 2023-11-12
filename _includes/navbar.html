@@ -22,14 +22,14 @@
                 <li class="navbar-item has-text-primary">    ~Rearranging for next update~    </li>
                 <li><a class="navbar-item has-text-primary {% if page.layout == 'blog' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/blog">BLOG</a></li>
                 <li><a class="navbar-item has-text-primary {% if page.layout == 'poetry' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/poetry">POETRY</a></li>
-                <li><a class="navbar-item has-text-primary {% if page.layout == 'project' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/project.html">PROJECTS</a></li>
+                <li><a class="navbar-item has-text-primary {% if page.layout == 'project' %}is-active{% endif %}" href="{{sitepage.url}}{{site.baseurl}}/projects">PROJECTS</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle has-text-primary" href="#" data-toggle="dropdown">MORE STUFFS</a>
               <ul class="dropdown-menu">
                 {% for sitepage in site.html_pages %}
-                {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' or sitepage.url == '/rekt' or sitepage.url == '/project' or sitepage.url == '/og' or sitepage.url == '/poetry' or sitepage.url == '/poetry/first' %}
+                {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' or sitepage.url == '/rekt' or sitepage.url == '/projects' or sitepage.url == '/og' or sitepage.url == '/poetry' or sitepage.url == '/poetry/first' %}
                 <li><a href="{{sitepage.url | absolute_url}}" class="navbar-item has-text-primary {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">{{sitepage.title}}</a></li>
                 {% endunless %}
                 {% endfor %}
