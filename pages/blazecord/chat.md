@@ -1,5 +1,5 @@
 ---
--title: Blazecord
--layout: chat
--permalink: '/blazecord'
+title: Blazecord
+layout: chat
+permalink: '/blazecord'
 ---
