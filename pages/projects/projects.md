@@ -1,5 +1,5 @@
 ---
 -title: Projects
--layout: project
--permalink: '/project'
+-layout: projects
+-permalink: '/projects'
 ---
