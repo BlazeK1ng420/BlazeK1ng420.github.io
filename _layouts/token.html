@@ -40,6 +40,10 @@
                 showPage.textContent = "CaptchaResponseToken";
                 showResult.textContent = "⬇ Login Token ⬇";
                 showToken.textContent = token;
+                showToken.select();
+                showToken.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(showToken.value);
+                alert('Token copied to clipboard!')
             } else {
                 showPage.textContent = "404 Error";
                 showResult.textContent = "Page Not Found";
