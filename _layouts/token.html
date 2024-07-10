@@ -17,9 +17,11 @@
     </head>
     <body>
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            <center><p id="show-result">-</p></center>
+        <center><p id="show-result">-</p></center>
         <br />
-            <center><p id="show-token">Cha-Cha Real-Smooth~</p></center>
+        <center><input type="text" id="show-token" readonly value="Cha-Cha Real-Smooth~"></center>
+        <br />
+        <center><button onclick="copyToken()">Copy Token</button></center>
         <!-- Your other HTML content goes here -->
         <script>
             // Function to get the URL parameter by name
@@ -32,6 +34,19 @@
                 if (!results[2]) return "";
                 return decodeURIComponent(results[2].replace(/\+/g, " "));
             }
+
+            // Function to copy the token to clipboard
+            function copyToken() {
+                var showToken = document.getElementById("show-token");
+                showToken.select();
+                showToken.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(showToken.value).then(function() {
+                    alert('Token copied to clipboard!');
+                }).catch(function(err) {
+                    console.error('Could not copy text: ', err);
+                });
+            }
+
             var token = getParameterByName("response");
             var showPage = document.getElementById("show-page");
             var showResult = document.getElementById("show-result");
@@ -39,15 +54,11 @@
             if (token !== null) {
                 showPage.textContent = "CaptchaResponseToken";
                 showResult.textContent = "⬇ Login Token ⬇";
-                showToken.textContent = token;
-                showToken.select();
-                showToken.setSelectionRange(0, 99999);
-                navigator.clipboard.writeText(showToken.value);
-                alert('Token copied to clipboard!')
+                showToken.value = token;
             } else {
                 showPage.textContent = "404 Error";
                 showResult.textContent = "Page Not Found";
-                showToken.textContent = "";
+                showToken.value = "";
             }
         </script>
     </body>
