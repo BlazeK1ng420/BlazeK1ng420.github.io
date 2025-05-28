@@ -3,6 +3,7 @@ layout: compress
 ---
 [
   {% for post in site.posts %}
+    {% if post.categories contains "blog" %}
     {
       "title"    : "{{ post.title | escape }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
@@ -12,6 +13,7 @@ layout: compress
       "content" : "{{ post.content | truncate: '200' | strip_html | strip_newlines | strip | escape }}",
       "image" : "{{post.post-image}}",
       "readtime" : "{{ post.content | number_of_words | divided_by:180 }}"
-    } {% unless forloop.last %},{% endunless %}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
   {% endfor %}
 ]
