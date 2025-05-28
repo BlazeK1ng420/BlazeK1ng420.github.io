@@ -185,7 +185,7 @@
     noResultsText: "No results found",
     limit: 10,
     fuzzy: !1,
-    exclude: [_posts]
+    exclude: []
   }, O = t({
     required: g = ["searchInput", "resultsContainer", "json"]
   }), z = function(t) {
