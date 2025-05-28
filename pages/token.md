@@ -1,4 +1,0 @@
----
-title: Token
-layout: token
----
