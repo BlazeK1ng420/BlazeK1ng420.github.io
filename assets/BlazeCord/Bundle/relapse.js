@@ -3600,7 +3600,7 @@
       init_asyncIteratorSymbol();
       init_promiseAllSettled();
       init_fs();
-      pyonLoaderIdentity = globalThis.__PYON_LOADER__;
+      pyonLoaderIdentity = globalThis.__BLAZE_IS_LOADED__;
       vendettaLoaderIdentity = globalThis.__vendetta_loader;
       getVendettaLoaderIdentity();
     }
