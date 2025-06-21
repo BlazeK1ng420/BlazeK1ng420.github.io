@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const targetUrl = urlParams.get('url');
+        if (targetUrl) {
+            window.location.href = targetUrl;
+        } else {
+            document.write('No URL parameter provided');
+        }
+    </script>
+</head>
+<body>
+    404
+</body>
+</html>
