@@ -1,0 +1,16 @@
+{
+    "ABOUT": "O",
+    "ACTIONS": "Akcije",
+    "ARE_YOU_SURE_TO_CLEAR_DATA": "Jeste li sigurni da hočete ukloniti podatke od {name}?",
+    "ARE_YOU_SURE_TO_DELETE_PLUGIN": "Jeste li sigurni da očete obrisati {name}? Ovo če također ukloniti sve podatke od toga plugina.",
+    "ARE_YOU_SURE_TO_DELETE_THEME": "Jeste li sigurni da očete obrisati {name}?",
+    "ASSET_BROWSER": "Preglednik sadržaja",
+    "BRAND": "Marka",
+    "BUNNY": "Bunny",
+    "CANCEL": "Odustani",
+    "CLEAR": "Izbriši",
+    "CLEAR_DATA": "Obriši podatke",
+    "CLEAR_DATA_FAILED": "Brisanje podataka od {name} nije uspjelo!",
+    "CLEAR_DATA_SUCCESSFUL": "Podtaci od {name} su obrisani.",
+    "CODENAME": "Kodno ime"
+}
