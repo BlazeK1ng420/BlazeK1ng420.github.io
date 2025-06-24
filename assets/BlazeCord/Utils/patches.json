@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "replacers": {
+    "dark": {
+      "PRIMARY": {
+        "color": "N1_600",
+        "multiplier": 1.05,
+        "base": 275
+      },
+      "PLUM": {
+        "color": "N1_600",
+        "multiplier": 1.05,
+        "base": 275,
+        "alternative": true
+      },
+      "RED": {
+        "color": "#ffb4ab",
+        "base": 200
+      },
+      "BRAND": {
+        "color": "A1_800",
+        "base": 400
+      },
+      "BLUE": {
+        "color": "A1_800",
+        "base": 400
+      }
+    },
+    "light": {
+      "PRIMARY": {
+        "color": "N1_700",
+        "multiplier": 1.03,
+        "base": 350
+      },
+      "PLUM": {
+        "color": "N1_700",
+        "multiplier": 1.03,
+        "base": 350,
+        "alternative": true
+      },
+      "WHITE": {
+        "color": "N1_800",
+        "base": 600
+      },
+      "RED": {
+        "color": "#ba1a1a",
+        "base": 600
+      },
+      "BRAND": {
+        "color": "A1_400",
+        "base": 600
+      },
+      "BLUE": {
+        "color": "A1_400",
+        "base": 600
+      }
+    },
+    "both": {}
+  },
+  "semantic": {
+    "dark": {},
+    "light": {},
+    "both": {}
+  },
+  "raw": {
+    "dark": {},
+    "light": {},
+    "both": {}
+  },
+  "plus": {
+    "icons": {
+      "dark": {},
+      "light": {},
+      "both": {
+        "ic_radio_square_checked_24px": "A1_350",
+        "ic_selection_checked_24px": "A1_350",
+        "ic_check": "A1_350",
+        "ic_radio_circle_checked": "A1_350"
+      }
+    }
+  }
+}
