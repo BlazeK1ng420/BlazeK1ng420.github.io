@@ -8179,7 +8179,7 @@
                 r.push({
                   id: `blaze-${user.userId}-${i}`,
                   description: badges2.label,
-//                  icon: "_"
+                  icon: "_"
                 });
               });
             }
