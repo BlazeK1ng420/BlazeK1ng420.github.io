@@ -8162,23 +8162,24 @@
             var [badges, setBadges] = (0, import_react5.useState)(user ? badgeCache[user.userId] ??= [] : []);
             (0, import_react5.useEffect)(() => {
               if (user) {
-                fetch(`https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Badges/${user.userId}.json`).then((r2) => r2.json()).then((badges2) => setBadges(badgeCache[user.userId] = badges2));
+                fetch(`https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Badges/${user.userId}.json`).then((r2) => r2.json()).then((badge) => setBadges(badgeCache[user.userId] = badge));
               }
             }, [
               user
             ]);
             if (user) {
-              badges.forEach((badges2, i) => {
-                propHolder[`blaze-${user.userId}-${i}`] = {
+              badges.forEach((badge, i) => {
+                const id = `blaze-${user.userId}-${i}`;
+                propHolder[id] = {
                   source: {
-                    uri: badges2.url
+                    uri: badge.url
                   },
-                  id: `blaze-${i}`,
-                  label: badges2.label
+                  id,
+                  label: badge.label
                 };
                 r.push({
-                  id: `blaze-${user.userId}-${i}`,
-                  description: badges2.label,
+                  id,
+                  description: badge.label,
                   icon: "_"
                 });
               });
@@ -8188,6 +8189,8 @@
       });
     }
   });
+
+
 
   // src/core/plugins/index.ts
   function defineCorePlugin(instance) {
