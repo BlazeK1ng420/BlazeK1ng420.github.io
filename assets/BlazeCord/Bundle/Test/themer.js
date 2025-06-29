@@ -20882,7 +20882,7 @@ ${inspect({
       init_internal();
       init_usePluginStore();
       init_useUpdaterStore();
-      //Object.freeze = Object.seal = Object;
+      Object.freeze = Object.seal = Object;
       __name(initializeWintry, "initializeWintry");
     }
   });
