@@ -20882,7 +20882,7 @@ ${inspect({
       init_internal();
       init_usePluginStore();
       init_useUpdaterStore();
-      Object.freeze = Object.seal = Object;
+      //Object.freeze = Object.seal = Object;
       __name(initializeWintry, "initializeWintry");
     }
   });
@@ -20895,7 +20895,7 @@ ${inspect({
       "use strict";
       init_registry();
       init_objects();
-      Object.freeze = Object.seal = Object;
+      // Object.freeze = Object.seal = Object;
       unhook = hookDefineProperty(globalThis, "__d", (define2) => {
         unhook();
         globalThis.__d = internal_getDefiner(define2, (runFactory) => {
