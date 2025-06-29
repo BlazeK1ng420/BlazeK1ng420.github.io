@@ -3691,19 +3691,26 @@ var WINTRY_START_TIME = nativePerformanceNow(); var window = typeof globalThis !
             }
             __name(L, "L");
             function T(t6, e5, r5) {
+              if (!t6 || typeof t6 !== "object") {
+                console.warn("[Wintry Patch] T() called with non-object target:", t6);
+                return;
+              }
+            
               var n4, o3 = h(P(t6));
               try {
                 for (o3.s(); !(n4 = o3.n()).done; ) {
                   var a2 = n4.value, i3 = R(a2), c3 = x(t6, a2);
-                  if ("get" in c3) L(e5, r5, i3, c3);
-                  else {
+                  if ("get" in c3) {
+                    L(e5, r5, i3, c3);
+                  } else {
                     var u2 = "".concat(r5).concat(i3);
-                    w(e5, u2, s({
-                      __proto__: null
-                    }, c3)), I.includes(u2) && w(e5, "".concat(u2, "Apply"), {
-                      __proto__: null,
-                      value: k(c3.value, t6)
-                    });
+                    w(e5, u2, s({ __proto__: null }, c3));
+                    if (I.includes(u2)) {
+                      w(e5, "".concat(u2, "Apply"), {
+                        __proto__: null,
+                        value: k(c3.value, t6)
+                      });
+                    }
                   }
                 }
               } catch (t7) {
