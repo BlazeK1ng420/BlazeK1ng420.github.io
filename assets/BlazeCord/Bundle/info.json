@@ -1,7 +1,7 @@
 {
   "paths": [
-    "dist/bundle.js",
-    "dist/bundle.96.hbc"
+    "dist/redux.js",
+    "dist/redux.96.hbc"
   ],
   "version": "1.0.0",
   "hash": "b44fc1fc74b72e77e305eb1fd86c175cb7985b104c4f9c0c9ab9d43d5fabd57a"
