@@ -1,0 +1,8 @@
+{
+	"name": "Monet Theme",
+	"description": "A material you theme generator",
+	"main": "src/index.ts",
+	"relapse": {
+		"icon": "PaintPaletteIcon"
+	}
+}
