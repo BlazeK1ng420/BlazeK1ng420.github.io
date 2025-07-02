@@ -1,0 +1,14 @@
+{
+  "name": "NitroHack",
+  "description": "Unlock 'Nitro' perks — Use custom emojis, animated stickers, and set AppIcons for FREE!.",
+  "authors": [
+    {
+      "name": "Blaze",
+      "id": "300547560840495104"
+    }
+  ],
+  "main": "src/index.ts",
+  "relapse": {
+    "icon": "img_nitro_emojis"
+  }
+}
