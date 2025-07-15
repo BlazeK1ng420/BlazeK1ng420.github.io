@@ -12,22 +12,24 @@ tags:
 ---
 
 # Time Flies... <i>Dejavu?</i>
-
-## <i><u>UPDATING MEMORY~</u></i><br>
-
+## <sub><i><u>UPDATING MEMORY~</u></i></sub><br>
 > Can you believe it? 30 months of US.<br>
 Through distance, doubt, and dark,<br>
 And every night we spent so far apart.<br>
 But our love? Love stayed, Love grew.<br>
 Strong, loud, amazing from the start.<br>
 
-> From the first words, my heart was hooked.<br>A recipe for ribs, you still haven't cooked.<br>Through all the tears and the laughter,<br>Every second with you keeps getting better,<br>Building <s>my</s> OUR, little Happy Ever After.<br>
+> From the first words, my heart was hooked.<br>
+A recipe for ribs, you still haven't cooked.<br>
+Through all the tears and the laughter<br>
+Every second with you keeps getting better,<br>
+Building <s>my</s> OUR, Happy Ever After.<br>
 
-> You're the best thing to ever happen to me,
-And take my word you always will be.
-You’re not just some part of my life—
-You’re the piece that made it complete.
-The one I cant wait to call my wife.
+> You're the best thing to ever happen to me,<br>
+And take my word you always will be.<br>
+You’re not just some part of my life—<br>
+You’re the piece that made it complete.<br>
+The one I cant wait to call my wife.<br>
 
 
 ---
@@ -65,5 +67,4 @@ ILoveYou Louisa<br>
 4Now & 4Always<br>
 My Foreverything<br>
  ♡ Only  Yours ♡<br>
-   ~  Trevor ❤️🔥              ![ILY](https://raw.githubusercontent.com/BlazeK1ng420/DiscordEmojis/refs/heads/master/px64/Sign/blobsignily.png)
----
+   ~  Trevor ❤️🔥   ![ILY](https://raw.githubusercontent.com/BlazeK1ng420/DiscordEmojis/refs/heads/master/px64/Sign/blobsignily.png)
