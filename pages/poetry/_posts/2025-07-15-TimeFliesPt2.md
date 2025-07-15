@@ -61,11 +61,9 @@ Two & Half years and more beautiful every day.
 
 
 ---
-ILoveYou Louisa
-4Now & 4Always
-My ==Foreverything==
- ♡ Only  Yours ♡
-   ~  Trevor ❤️🔥
-
-![ILY](https://raw.githubusercontent.com/BlazeK1ng420/DiscordEmojis/refs/heads/master/px64/Sign/blobsignily.png)
+ILoveYou Louisa<br>
+4Now & 4Always<br>
+My Foreverything<br>
+ ♡ Only  Yours ♡<br>
+   ~  Trevor ❤️🔥              ![ILY](https://raw.githubusercontent.com/BlazeK1ng420/DiscordEmojis/refs/heads/master/px64/Sign/blobsignily.png)
 ---
