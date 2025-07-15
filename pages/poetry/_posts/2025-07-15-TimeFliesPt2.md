@@ -1,6 +1,7 @@
 ---
 title: Two Years Later
 layout: post
+comments: true
 permalink: "poetry/:title"
 categories: "poetry"
 post-image: "https://BlazeK1ng420.github.io/assets/blaze/soulmates/first_date.jpg"
