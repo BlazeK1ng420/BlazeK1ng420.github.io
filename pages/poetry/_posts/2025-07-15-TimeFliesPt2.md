@@ -13,7 +13,7 @@ tags:
 
 # Time Flies... <i>Dejavu?</i>
 
->  <i><u>UPDATING MEMORY~</u></i><br>
+ ### <i><u>UPDATING MEMORY~</u></i><br>
 
 > Can you believe it? 30 months of US.<br>
 Through distance, doubt, and dark,<br>
@@ -40,6 +40,8 @@ Yet somehow still made me whole.<br><br>
 <u>I</u> is for <u>Intimate</u>, our quiet talks at night.<br>The way your voice makes everything heavy,<br>Suddenly all seem so light.<br><br>
 <u>S</u> is for <u>Safe</u>, like your arms when I feel small.<br>Even though we’re miles apart, with you—I have it all.<br><br>
 <u>A</u> is for <u>Always</u>, because that’s what this is to me.<br>Your not just a moment... your my entire destiny.
+
+
 ---
 
 
