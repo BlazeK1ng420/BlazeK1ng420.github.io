@@ -42,17 +42,16 @@ Through each goodbye, through every fight,
 We’ve held each other through the night.
 
 
-> You are my person, Louisa. My better half.
-My peace. My reason. My smile. My laugh.
-Everything Ive ever wanted, you totally embody.
-Love all 5ft, of your perfect soul and body.
-The only one I'll keep choosing until our hair is gray
+> You are my person, Louisa. My better half.<br>
+My reason. My Fire. My smile. My laugh.<br>
+Everything I've ever wanted, you totally embody.<br>
+Love all 5ft, of your perfect soul and body.<br>
+The only one Im choosing until both our hair is gray<br>
 Two & Half years and more beautiful every day.
 
 ILoveYou Louisa
 4Now & 4Always
-My Foreverything
-♡ Only Yours ♡
-       ~  Trevor ❤️‍🔥
+My ==Foreverything==
+♡  Only Yours  ♡
+       ~  Trevor ❤️🔥    ![ILY](https://raw.githubusercontent.com/BlazeK1ng420/DiscordEmojis/refs/heads/master/px64/Sign/blobsignily.png)
 ---
-
