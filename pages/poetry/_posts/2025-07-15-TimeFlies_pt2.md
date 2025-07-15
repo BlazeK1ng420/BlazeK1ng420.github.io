@@ -11,48 +11,48 @@ tags:
 - anniversary
 ---
 
-# Wowl Time flies.. <i>Doesn’t it, baby?</i>
+# Time Flies... <i>Dejavu?</i>
 
-### remembering…
+<i><u>UPDATING MEMORY~</u></i>
 
-> Can you believe it? 30 months of us. Through distance, through doubt, through every late night that felt like forever apart.<br>But love? Love stayed. Strong, loud, and ours from the start.<br>From the very first message, to the tears and the laughter—<br>Every second with you has built my ever after.
+> Can you believe it? 30 months of US.<br>
+Through distance, doubt, and dark,<br>And every night we spent so far apart.<br>But our love? Love stayed, Love grew.
+Strong, loud, amazing from the start.<br><br>From the first words, my heart was hooked.<br>A recipe for ribs, you still haven't cooked.<br>Through all the tears and the laughter,<br>Every second with you keeps getting better,<br>Building <s>my</s> OUR, little Happy Ever After.
 
-> You're still the best thing that’s ever happened to me.
-And you’re not just part of my life—you’re the piece that made it complete.
-
+> You're the best thing to ever happen to me,
+And take my word you always will be.
+You’re not just some part of my life—
+You’re the piece that made it complete.
+The one I cant wait to call my wife.
+---
+# Again, I'll spell for you.
+> <u>L</u> is for <u>Lasting</u>, like the way we’ve held on tight.<br>Through everything life’s thrown our way,<br>We still turned out all right.<br><br>
+<u>O</u> is for <u>One</u>, the only one who truly knows my soul.
+You’ve seen me raw, broken, happy
+Yet somehow still made me whole.<br><br>
+<u>U</u> is for <u>Unstoppable</u>, that’s what this love became.<br>No matter the space, the place, the time or date,<br>I’ll always feel the same.<br><br>
+<u>I</u> is for <u>Intimate</u>, our quiet talks at night.<br>The way your voice makes everything heavy,<br>Suddenly all seem so light.<br><br>
+<u>S</u> is for <u>Safe</u>, like your arms when I feel small.<br>Even though we’re miles apart, with you—I have it all.<br><br>
+<u>A</u> is for <u>Always</u>, because that’s what this is to me.<br>Your not just a moment... your my entire destiny.
 ---
 
-> <u>L</u> is for <u>Lasting</u>, like the way we’ve held on tight. Through everything life’s thrown our way, we’ve still turned out all right.<br><br>
-<u>O</u> is for <u>One</u>, the only one who truly knows my soul. You’ve seen me raw, broken, happy—and somehow still made me whole.<br><br>
-<u>U</u> is for <u>Unstoppable</u>, that’s what this love became. No matter the space, no matter the time—I’ll always feel the same.<br><br>
-<u>I</u> is for <u>Intimate</u>, the quiet talks at night. The way your voice makes everything heavy feel suddenly light.<br><br>
-<u>S</u> is for <u>Safe</u>, like your arms when I feel small. Even when we’re miles apart, with you—I have it all.<br><br>
-<u>A</u> is for <u>Always</u>, because that’s what this is to me. Not just a moment, or a phase... but my entire destiny.
-
-
-
-
----
-
-> Days get long, and life gets hard—
+> Our days grow long, and yea life gets hard,
 But love like ours leaves a permanent mark.
 Through each goodbye, through every fight,
 We’ve held each other through the night.
 
 
+> You are my person, Louisa. My better half.
+My peace. My reason. My smile. My laugh.
+Everything Ive ever wanted, you totally embody.
+Love all 5ft, of your perfect soul and body.
+The only one I'll keep choosing until our hair is gray
+Two & Half years and more beautiful every day.
 
-You are my person, Louisa.
-My peace. My reason. My fire.
-Everything I ever wanted,
-and everything I’ll keep choosing—over and over again.
-
-I love you.
-Now. Always.
-♡ForeverYours♡
-~Trevor ❤️‍🔥
-
-
+ILoveYou Louisa
+4Now & 4Always
+My Foreverything
+♡ Only Yours ♡
+       ~  Trevor ❤️‍🔥
 ---
-
-Want me to help you post this to your site with formatting, or create an anniversary card style version? Let me know how far you want to take it.
 
