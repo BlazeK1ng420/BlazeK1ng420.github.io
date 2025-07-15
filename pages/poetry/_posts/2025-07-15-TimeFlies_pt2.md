@@ -3,7 +3,7 @@ title: Two Years Later
 layout: post
 permalink: "poetry/:title"
 categories: "poetry"
-post-image: "https://i.ibb.co/6BjJ8Qm/Louisa.jpg"
+post-image: "https://BlazeK1ng420.github.io/assets/blaze/soulmates/first_date.jpg"
 description: "Mahal kita maganda <3"
 tags:
 - love
