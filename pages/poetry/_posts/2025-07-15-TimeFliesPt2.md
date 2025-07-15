@@ -39,8 +39,10 @@ Yet somehow still made me whole.<br><br>
 <u>S</u> is for <u>Safe</u>, like your arms when I feel small.<br>Even though we’re miles apart, with you—I have it all.<br><br>
 <u>A</u> is for <u>Always</u>, because that’s what this is to me.<br>Your not just a moment... your my entire destiny.
 ---
-# We Got This Babes~
 
+
+
+# We Got This Babes~
 > Our days grow long, and yea life gets hard,
 But love like ours leaves a permanent mark.
 Through each goodbye, through every fight,
@@ -52,6 +54,8 @@ Everything I've ever wanted, you totally embody.<br>
 Love all 5ft, of your perfect soul and body.<br>
 The only one Im choosing until both our hair is gray<br>
 Two & Half years and more beautiful every day.
+
+
 ---
 ILoveYou Louisa
 4Now & 4Always
