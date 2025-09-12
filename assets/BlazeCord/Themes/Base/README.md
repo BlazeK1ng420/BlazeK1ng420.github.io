@@ -1,5 +1,5 @@
 ### Discord base internal themes.
-#### For reference in [BlazeCord](https://BlazeCordMod/BlazeCord/)
+#### For reference in [BlazeCord](https://github.com/BlazeCordMod/BlazeCord/)
 ---
 
 
