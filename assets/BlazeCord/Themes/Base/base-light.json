@@ -1,0 +1,1314 @@
+{
+    "id": "discord.light",
+    "type": "theme",
+    "display": {
+        "name": "Discord Light",
+        "description": "Discord's default light theme.",
+        "authors": {
+            "name": "Blaze",
+            "id": "300547560840495104"
+        }
+    },
+    "main": {
+        "base": "light",
+        "colors": {
+            "semantic": {
+                "ACTION_SHEET_GRADIENT_BG": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "ACTIVITY_CARD_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "ACTIVITY_CARD_ICON_OVERLAY": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 0.85
+                },
+                "ALERT_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "ANDROID_NAVIGATION_BAR_BACKGROUND": {
+                    "value": "$PRIMARY_100",
+                    "opacity": 1
+                },
+                "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
+                    "value": "$PRIMARY_100",
+                    "opacity": 0.5
+                },
+                "ANDROID_RIPPLE": {
+                    "value": "$BLACK",
+                    "opacity": 0.12
+                },
+                "APP_MESSAGE_EMBED_SECONDARY_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 0.7
+                },
+                "BACKGROUND_ACCENT": {
+                    "value": "$PRIMARY_430",
+                    "opacity": 1
+                },
+                "BACKGROUND_BASE_LOW": {
+                    "value": "$NEUTRAL_2",
+                    "opacity": 1
+                },
+                "BACKGROUND_BASE_LOWER": {
+                    "value": "$NEUTRAL_2",
+                    "opacity": 1
+                },
+                "BACKGROUND_BASE_LOWEST": {
+                    "value": "$NEUTRAL_4",
+                    "opacity": 1
+                },
+                "BACKGROUND_FEEDBACK_CRITICAL": {
+                    "value": "$OPACITY_RED_8",
+                    "opacity": 0.0784313725490196
+                },
+                "BACKGROUND_FEEDBACK_INFO": {
+                    "value": "$OPACITY_BLUE_8",
+                    "opacity": 0.0784313725490196
+                },
+                "BACKGROUND_FEEDBACK_POSITIVE": {
+                    "value": "$OPACITY_GREEN_8",
+                    "opacity": 0.0784313725490196
+                },
+                "BACKGROUND_FEEDBACK_WARNING": {
+                    "value": "$OPACITY_YELLOW_8",
+                    "opacity": 0.0784313725490196
+                },
+                "BACKGROUND_FLOATING": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BACKGROUND_MENTIONED": {
+                    "value": "$YELLOW_300",
+                    "opacity": 0.1
+                },
+                "BACKGROUND_MENTIONED_HOVER": {
+                    "value": "$YELLOW_300",
+                    "opacity": 0.2
+                },
+                "BACKGROUND_MESSAGE_AUTOMOD": {
+                    "value": "$RED_400",
+                    "opacity": 0.05
+                },
+                "BACKGROUND_MESSAGE_AUTOMOD_HOVER": {
+                    "value": "$RED_400",
+                    "opacity": 0.1
+                },
+                "BACKGROUND_MESSAGE_HIGHLIGHT": {
+                    "value": "$BRAND_360",
+                    "opacity": 0.1
+                },
+                "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": {
+                    "value": "$BRAND_360",
+                    "opacity": 0.2
+                },
+                "BACKGROUND_MESSAGE_HOVER": {
+                    "value": "$PRIMARY_900",
+                    "opacity": 0.03
+                },
+                "BACKGROUND_MOBILE_PRIMARY": {
+                    "value": "$PRIMARY_100",
+                    "opacity": 1
+                },
+                "BACKGROUND_MOBILE_SECONDARY": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BACKGROUND_MODIFIER_ACCENT": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.24
+                },
+                "BACKGROUND_MODIFIER_ACTIVE": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.2
+                },
+                "BACKGROUND_MODIFIER_HOVER": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.16
+                },
+                "BACKGROUND_MODIFIER_SELECTED": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.24
+                },
+                "BACKGROUND_NESTED_FLOATING": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BACKGROUND_PRIMARY": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BACKGROUND_SECONDARY": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "BACKGROUND_SECONDARY_ALT": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "BACKGROUND_TERTIARY": {
+                    "value": "$PRIMARY_200",
+                    "opacity": 1
+                },
+                "BACKGROUND_TILE_GRADIENT_PINK_END": {
+                    "value": "$ILLO_PINK_3",
+                    "opacity": 0.3
+                },
+                "BACKGROUND_TILE_GRADIENT_PINK_START": {
+                    "value": "$ILLO_PINK_1",
+                    "opacity": 0.3
+                },
+                "BADGE_BRAND_BG": {
+                    "value": "$BRAND_260",
+                    "opacity": 1
+                },
+                "BADGE_BRAND_TEXT": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "BG_BACKDROP": {
+                    "value": "$BLACK",
+                    "opacity": 0.54
+                },
+                "BG_BACKDROP_IMMERSIVE": {
+                    "value": "$BLACK",
+                    "opacity": 0.8
+                },
+                "BG_BACKDROP_NO_OPACITY": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "BG_BASE_PRIMARY": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BG_BASE_SECONDARY": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "BG_BASE_TERTIARY": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "BG_BRAND": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "BG_MOD_FAINT": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.08
+                },
+                "BG_MOD_STRONG": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.24
+                },
+                "BG_MOD_SUBTLE": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 0.16
+                },
+                "BG_SURFACE_OVERLAY": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BG_SURFACE_OVERLAY_TMP": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "BG_SURFACE_RAISED": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BLACK": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "BLUR_FALLBACK": {
+                    "value": "$PRIMARY_530",
+                    "opacity": 0.96
+                },
+                "BLUR_FALLBACK_PRESSED": {
+                    "value": "$PRIMARY_560",
+                    "opacity": 0.96
+                },
+                "BORDER_FAINT": {
+                    "value": "$BLACK",
+                    "opacity": 0.04
+                },
+                "BORDER_STRONG": {
+                    "value": "$BLACK",
+                    "opacity": 0.16
+                },
+                "BORDER_SUBTLE": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0.6
+                },
+                "BUTTON_CREATOR_REVENUE_BACKGROUND": {
+                    "value": "$TEAL_430",
+                    "opacity": 1
+                },
+                "BUTTON_DANGER_BACKGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "BUTTON_DANGER_BACKGROUND_ACTIVE": {
+                    "value": "$RED_530",
+                    "opacity": 1
+                },
+                "BUTTON_DANGER_BACKGROUND_DISABLED": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "BUTTON_DANGER_BACKGROUND_HOVER": {
+                    "value": "$RED_500",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_BORDER_HOVER": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT_ACTIVE": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_BRAND_TEXT_HOVER": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND_ACTIVE": {
+                    "value": "$GREEN_530",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_BACKGROUND_HOVER": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER": {
+                    "value": "$GREEN_400",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER_ACTIVE": {
+                    "value": "$GREEN_530",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_BORDER_HOVER": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT_ACTIVE": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_POSITIVE_TEXT_HOVER": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": {
+                    "value": "$PRIMARY_530",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER": {
+                    "value": "$PRIMARY_530",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": {
+                    "value": "$PRIMARY_530",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "BUTTON_POSITIVE_BACKGROUND": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "BUTTON_POSITIVE_BACKGROUND_ACTIVE": {
+                    "value": "$GREEN_530",
+                    "opacity": 1
+                },
+                "BUTTON_POSITIVE_BACKGROUND_DISABLED": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "BUTTON_POSITIVE_BACKGROUND_HOVER": {
+                    "value": "$GREEN_530",
+                    "opacity": 1
+                },
+                "BUTTON_SECONDARY_BACKGROUND": {
+                    "value": "$PRIMARY_430",
+                    "opacity": 1
+                },
+                "BUTTON_SECONDARY_BACKGROUND_ACTIVE": {
+                    "value": "$PRIMARY_530",
+                    "opacity": 1
+                },
+                "BUTTON_SECONDARY_BACKGROUND_HOVER": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "CARD_GRADIENT_BG": {
+                    "value": "$WHITE",
+                    "opacity": 0.7
+                },
+                "CARD_GRADIENT_PRESSED_BG": {
+                    "value": "$WHITE",
+                    "opacity": 0.5
+                },
+                "CARD_PRIMARY_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "CARD_PRIMARY_PRESSED_BG": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "CARD_SECONDARY_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "CARD_SECONDARY_PRESSED_BG": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "CHANNEL_ICON": {
+                    "value": "$PRIMARY_430",
+                    "opacity": 1
+                },
+                "CHANNELS_DEFAULT": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "CHANNELTEXTAREA_BACKGROUND": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "CHAT_BANNER_BG": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "CHAT_BORDER": {
+                    "value": "$PRIMARY_200",
+                    "opacity": 1
+                },
+                "CHAT_INPUT_CONTAINER_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "COACHMARK_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
+                    "value": "$WHITE",
+                    "opacity": 0.85
+                },
+                "CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY": {
+                    "value": "$WHITE",
+                    "opacity": 0.7
+                },
+                "CONTENT_INVENTORY_OVERLAY_UI_MOD": {
+                    "value": "$WHITE",
+                    "opacity": 0.7
+                },
+                "CONTENT_INVENTORY_OVERLAY_UI_MOD_BG": {
+                    "value": "$BLACK",
+                    "opacity": 0.1
+                },
+                "CONTEXT_MENU_BACKDROP_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.54
+                },
+                "CONTROL_BRAND_FOREGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "CONTROL_BRAND_FOREGROUND_NEW": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "CUSTOM_STATUS_BUBBLE_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0.5
+                },
+                "DIVIDER_STRONG": {
+                    "value": "$BLACK",
+                    "opacity": 0.16
+                },
+                "DIVIDER_SUBTLE": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "EMBED_BACKGROUND": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "EMBED_BACKGROUND_ALTERNATE": {
+                    "value": "$PRIMARY_200",
+                    "opacity": 1
+                },
+                "EMBED_TITLE": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "EXPRESSION_PICKER_BG": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "EXPRESSIVE_GRADIENT_BLUE_END": {
+                    "value": "$ILLO_BLUE_3",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_BLUE_START": {
+                    "value": "$ILLO_BLUE_1",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_GREEN_END": {
+                    "value": "$ILLO_GREEN_3",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_GREEN_START": {
+                    "value": "$ILLO_GREEN_1",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_NITRO_GREEN_END": {
+                    "value": "$ILLO_BLUE_4",
+                    "opacity": 0.9
+                },
+                "EXPRESSIVE_GRADIENT_NITRO_GREEN_START": {
+                    "value": "$ILLO_GREEN_1",
+                    "opacity": 0.9
+                },
+                "EXPRESSIVE_GRADIENT_NITRO_PINK_END": {
+                    "value": "$ILLO_BLUE_4",
+                    "opacity": 0.9
+                },
+                "EXPRESSIVE_GRADIENT_NITRO_PINK_START": {
+                    "value": "$ILLO_PINK_3",
+                    "opacity": 0.9
+                },
+                "EXPRESSIVE_GRADIENT_PINK_END": {
+                    "value": "$ILLO_PINK_3",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_PINK_START": {
+                    "value": "$ILLO_PINK_1",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_PURPLE_END": {
+                    "value": "$ILLO_PURPLE_3",
+                    "opacity": 0.8
+                },
+                "EXPRESSIVE_GRADIENT_PURPLE_START": {
+                    "value": "$ILLO_PURPLE_1",
+                    "opacity": 0.8
+                },
+                "FOCUS_PRIMARY": {
+                    "value": "$BLUE_360",
+                    "opacity": 1
+                },
+                "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 0.8
+                },
+                "FORUM_POST_TAG_BACKGROUND": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 0.9
+                },
+                "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "HEADER_MUTED": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "HEADER_PRIMARY": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "HEADER_SECONDARY": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "ICON_MUTED": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 1
+                },
+                "ICON_PRIMARY": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "ICON_SECONDARY": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "ICON_TRANSPARENT": {
+                    "value": "$TRANSPARENT",
+                    "opacity": 0
+                },
+                "INFO_BOX_BACKGROUND": {
+                    "value": "$BLUE_345",
+                    "opacity": 0.1
+                },
+                "INFO_DANGER_BACKGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 0.1
+                },
+                "INFO_DANGER_FOREGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "INFO_DANGER_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "INFO_HELP_BACKGROUND": {
+                    "value": "$BLUE_430",
+                    "opacity": 0.1
+                },
+                "INFO_HELP_FOREGROUND": {
+                    "value": "$BLUE_430",
+                    "opacity": 1
+                },
+                "INFO_HELP_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "INFO_POSITIVE_BACKGROUND": {
+                    "value": "$GREEN_400",
+                    "opacity": 0.05
+                },
+                "INFO_POSITIVE_FOREGROUND": {
+                    "value": "$GREEN_400",
+                    "opacity": 1
+                },
+                "INFO_POSITIVE_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "INFO_WARNING_BACKGROUND": {
+                    "value": "$YELLOW_400",
+                    "opacity": 0.1
+                },
+                "INFO_WARNING_FOREGROUND": {
+                    "value": "$YELLOW_400",
+                    "opacity": 1
+                },
+                "INFO_WARNING_TEXT": {
+                    "value": "$BLACK",
+                    "opacity": 1
+                },
+                "INPUT_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "INPUT_BORDER": {
+                    "value": "$PLUM_11",
+                    "opacity": 0.32
+                },
+                "INPUT_BORDER_CRITICAL_HOVER": {
+                    "value": "$RED_NEW_54",
+                    "opacity": 1
+                },
+                "INPUT_ERROR_BACKGROUND": {
+                    "value": "$RED_500",
+                    "opacity": 0.12
+                },
+                "INPUT_ERROR_BORDER": {
+                    "value": "$RED_360",
+                    "opacity": 1
+                },
+                "INPUT_ERROR_TEXT": {
+                    "value": "$RED_700",
+                    "opacity": 1
+                },
+                "INPUT_FOCUSED_BORDER": {
+                    "value": "$BLACK",
+                    "opacity": 0.16
+                },
+                "INPUT_FOREGROUND_CRITICAL": {
+                    "value": "$RED_500",
+                    "opacity": 1
+                },
+                "INPUT_FOREGROUND_DEFAULT": {
+                    "value": "$NEUTRAL_69",
+                    "opacity": 1
+                },
+                "INPUT_PLACEHOLDER_TEXT": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "INTERACTIVE_ACTIVE": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "INTERACTIVE_HOVER": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "INTERACTIVE_MUTED": {
+                    "value": "$PRIMARY_300",
+                    "opacity": 1
+                },
+                "INTERACTIVE_NORMAL": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "LEADERBOARD_LEAGUE_BRAND_TEXT": {
+                    "value": "$LOL_TEXT_DARK",
+                    "opacity": 1
+                },
+                "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 0.1
+                },
+                "LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN": {
+                    "value": "$WHITE",
+                    "opacity": 0.25
+                },
+                "LEGACY_BLUR_FALLBACK_DEFAULT": {
+                    "value": "$PRIMARY_230",
+                    "opacity": 0.975
+                },
+                "LEGACY_BLUR_FALLBACK_ULTRA_THIN": {
+                    "value": "$WHITE",
+                    "opacity": 0.95
+                },
+                "LIVE_STAGE_TILE_BORDER": {
+                    "value": "$PRIMARY_430",
+                    "opacity": 0.15
+                },
+                "MENTION_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.15
+                },
+                "MENTION_FOREGROUND": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "MESSAGE_REACTED_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.15
+                },
+                "MESSAGE_REACTED_TEXT": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "MODAL_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "MODAL_FOOTER_BACKGROUND": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "NAVIGATOR_HEADER_TINT": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "NOTICE_BACKGROUND_POSITIVE": {
+                    "value": "$GREEN_NEW_1",
+                    "opacity": 1
+                },
+                "OVERLAY_BACKDROP_DEFAULT": {
+                    "value": "$OPACITY_BLACK_52",
+                    "opacity": 0.5215686274509804
+                },
+                "OVERLAY_BACKDROP_LIGHTBOX": {
+                    "value": "$OPACITY_BLACK_92",
+                    "opacity": 0.9215686274509803
+                },
+                "PANEL_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "POLLS_NORMAL_FILL_HOVER": {
+                    "value": "$PRIMARY_230",
+                    "opacity": 1
+                },
+                "POLLS_NORMAL_IMAGE_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "POLLS_VICTOR_FILL": {
+                    "value": "$GREEN_400",
+                    "opacity": 0.2
+                },
+                "POLLS_VOTED_FILL": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.2
+                },
+                "PREMIUM_NITRO_PINK_TEXT": {
+                    "value": "$PREMIUM_NITRO_PINK_DARK",
+                    "opacity": 1
+                },
+                "PROFILE_GRADIENT_NOTE_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0.3
+                },
+                "PROFILE_GRADIENT_OVERLAY": {
+                    "value": "$WHITE",
+                    "opacity": 0.6
+                },
+                "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": {
+                    "value": "$WHITE",
+                    "opacity": 0.8
+                },
+                "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0.5
+                },
+                "PROFILE_GRADIENT_ROLE_PILL_BORDER": {
+                    "value": "$PRIMARY_660",
+                    "opacity": 0.2
+                },
+                "PROFILE_GRADIENT_SECTION_BOX": {
+                    "value": "$WHITE",
+                    "opacity": 0.45
+                },
+                "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
+                    "value": "$PRIMARY_400",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_ACTIVE_BACKGROUND": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_ACTIVE_PRESSED_BACKGROUND": {
+                    "value": "$GREEN_460",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_ACTIVE_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DANGER_BACKGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DANGER_PRESSED_BACKGROUND": {
+                    "value": "$RED_460",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DANGER_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": {
+                    "value": "$RED_460",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_DESTRUCTIVE_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.54
+                },
+                "REDESIGN_BUTTON_OVERLAY_ALPHA_PRESSED_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.64
+                },
+                "REDESIGN_BUTTON_OVERLAY_ALPHA_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_OVERLAY_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_OVERLAY_TEXT": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_POSITIVE_BACKGROUND": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_POSITIVE_PRESSED_BACKGROUND": {
+                    "value": "$GREEN_460",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_POSITIVE_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PREMIUM_PRIMARY_BLUE_FOR_GRADIENT": {
+                    "value": "$PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
+                    "value": "$PREMIUM_TIER_2_PINK_FOR_GRADIENTS",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.1
+                },
+                "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
+                    "value": "$PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT_2": {
+                    "value": "$PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BACKGROUND": {
+                    "value": "$BRAND_530",
+                    "opacity": 0
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BORDER": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BACKGROUND": {
+                    "value": "$BRAND_530",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BORDER": {
+                    "value": "$BRAND_360",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.06
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BORDER": {
+                    "value": "$BRAND_330",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_TEXT": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ALT_TEXT": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_ON_BLURPLE_PRESSED_TEXT": {
+                    "value": "$BRAND_530",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_OVERLAY_PRESSED_BACKGROUND": {
+                    "value": "$PRIMARY_230",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_OVERLAY_TEXT": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": {
+                    "value": "$BRAND_560",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_PRIMARY_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_SECONDARY_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_SECONDARY_BORDER": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.54
+                },
+                "REDESIGN_BUTTON_SECONDARY_OVERLAY_PRESSED_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.64
+                },
+                "REDESIGN_BUTTON_SECONDARY_OVERLAY_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_SECONDARY_PRESSED_BORDER": {
+                    "value": "$BLACK",
+                    "opacity": 0.04
+                },
+                "REDESIGN_BUTTON_SECONDARY_TEXT": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_SELECTED_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.16
+                },
+                "REDESIGN_BUTTON_SELECTED_PRESSED_BACKGROUND": {
+                    "value": "$BRAND_500",
+                    "opacity": 0.24
+                },
+                "REDESIGN_BUTTON_SELECTED_TEXT": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.16
+                },
+                "REDESIGN_BUTTON_TERTIARY_PRESSED_TEXT": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "REDESIGN_BUTTON_TERTIARY_TEXT": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "REDESIGN_CHANNEL_NAME_TEXT": {
+                    "value": "$PRIMARY_860",
+                    "opacity": 1
+                },
+                "REDESIGN_CHAT_INPUT_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
+                    "value": "$BLACK",
+                    "opacity": 0.08
+                },
+                "REDESIGN_INPUT_CONTROL_ACTIVE_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "REDESIGN_INPUT_CONTROL_SELECTED": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "SPINE_DEFAULT": {
+                    "value": "$PRIMARY_300",
+                    "opacity": 1
+                },
+                "SPOILER_HIDDEN_BACKGROUND": {
+                    "value": "$PRIMARY_200",
+                    "opacity": 1
+                },
+                "SPOILER_REVEALED_BACKGROUND": {
+                    "value": "$PRIMARY_160",
+                    "opacity": 1
+                },
+                "STAGE_CARD_PILL_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "STATUS_DANGER": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "STATUS_DANGER_BACKGROUND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "STATUS_DANGER_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "STATUS_DND": {
+                    "value": "$RED_430",
+                    "opacity": 1
+                },
+                "STATUS_IDLE": {
+                    "value": "$YELLOW_400",
+                    "opacity": 1
+                },
+                "STATUS_OFFLINE": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "STATUS_ONLINE": {
+                    "value": "$GREEN_400",
+                    "opacity": 1
+                },
+                "STATUS_POSITIVE": {
+                    "value": "$GREEN_400",
+                    "opacity": 1
+                },
+                "STATUS_POSITIVE_BACKGROUND": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "STATUS_POSITIVE_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "STATUS_SPEAKING": {
+                    "value": "$GREEN_360",
+                    "opacity": 1
+                },
+                "STATUS_WARNING": {
+                    "value": "$YELLOW_400",
+                    "opacity": 1
+                },
+                "STATUS_WARNING_BACKGROUND": {
+                    "value": "$YELLOW_400",
+                    "opacity": 1
+                },
+                "STATUS_WARNING_TEXT": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "TEXT_BRAND": {
+                    "value": "$BRAND_500",
+                    "opacity": 1
+                },
+                "TEXT_DANGER": {
+                    "value": "$RED_500",
+                    "opacity": 1
+                },
+                "TEXT_LINK": {
+                    "value": "$BLUE_430",
+                    "opacity": 1
+                },
+                "TEXT_LINK_LOW_SATURATION": {
+                    "value": "$BLUE_430",
+                    "opacity": 1
+                },
+                "TEXT_LOW_CONTRAST": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "TEXT_MESSAGE_PREVIEW_LOW_SAT": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "TEXT_MUTED": {
+                    "value": "$PRIMARY_460",
+                    "opacity": 1
+                },
+                "TEXT_MUTED_ON_DEFAULT": {
+                    "value": "$PRIMARY_430",
+                    "opacity": 1
+                },
+                "TEXT_NORMAL": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "TEXT_POSITIVE": {
+                    "value": "$GREEN_430",
+                    "opacity": 1
+                },
+                "TEXT_PRIMARY": {
+                    "value": "$PRIMARY_600",
+                    "opacity": 1
+                },
+                "TEXT_SECONDARY": {
+                    "value": "$PRIMARY_500",
+                    "opacity": 1
+                },
+                "TEXT_WARNING": {
+                    "value": "$YELLOW_430",
+                    "opacity": 1
+                },
+                "THEME_LOCKED_BLUR_FALLBACK": {
+                    "value": "$PRIMARY_700",
+                    "opacity": 0.96
+                },
+                "THREAD_CHANNEL_SPINE": {
+                    "value": "$PRIMARY_300",
+                    "opacity": 1
+                },
+                "TOAST_BG": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                },
+                "TYPING_INDICATOR_BG": {
+                    "value": "$PRIMARY_130",
+                    "opacity": 1
+                },
+                "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
+                    "value": "$WHITE",
+                    "opacity": 0.5
+                },
+                "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
+                    "value": "$PLUM_17",
+                    "opacity": 0.4
+                },
+                "VOICE_VIDEO_VIDEO_TILE_BLUR_FALLBACK": {
+                    "value": "$PRIMARY_700",
+                    "opacity": 0.48
+                },
+                "WHITE": {
+                    "value": "$WHITE",
+                    "opacity": 1
+                }
+            },
+            "raw": {
+                "PRIMARY_130": "#f2f3f5",
+                "WHITE": "#ffffff",
+                "PRIMARY_600": "#313338",
+                "PRIMARY_100": "#f9f9f9",
+                "BLACK": "#000000",
+                "PRIMARY_430": "#6d6f78",
+                "NEUTRAL_2": "#fbfbfb",
+                "NEUTRAL_4": "#f3f3f4",
+                "OPACITY_RED_8": "#d22d3914",
+                "OPACITY_BLUE_8": "#0074e314",
+                "OPACITY_GREEN_8": "#00863a14",
+                "OPACITY_YELLOW_8": "#a1630014",
+                "YELLOW_300": "#f0b232",
+                "RED_400": "#f23f43",
+                "BRAND_360": "#949cf7",
+                "PRIMARY_900": "#020202",
+                "PRIMARY_400": "#80848e",
+                "PRIMARY_160": "#ebedef",
+                "PRIMARY_200": "#e3e5e8",
+                "ILLO_PINK_3": "#fd99e9",
+                "ILLO_PINK_1": "#fbe6ff",
+                "BRAND_260": "#c9cdfb",
+                "BRAND_560": "#4752c4",
+                "BRAND_500": "#5865f2",
+                "PRIMARY_530": "#41434a",
+                "PRIMARY_560": "#383a40",
+                "TEAL_430": "#207a8d",
+                "RED_430": "#da373c",
+                "RED_530": "#8f2022",
+                "RED_500": "#a12829",
+                "GREEN_530": "#15562b",
+                "GREEN_430": "#248045",
+                "GREEN_400": "#24934e",
+                "PRIMARY_500": "#4e5058",
+                "PRIMARY_460": "#5c5e66",
+                "PRIMARY_860": "#060607",
+                "ILLO_BLUE_3": "#a0a9fa",
+                "ILLO_BLUE_1": "#e6e8ff",
+                "ILLO_GREEN_3": "#8af7b5",
+                "ILLO_GREEN_1": "#e5fff0",
+                "ILLO_BLUE_4": "#5865f2",
+                "ILLO_PURPLE_3": "#ca9ef9",
+                "ILLO_PURPLE_1": "#f3e6ff",
+                "BLUE_360": "#0097f2",
+                "TRANSPARENT": "transparent",
+                "BLUE_345": "#00aafc",
+                "BLUE_430": "#006be7",
+                "YELLOW_400": "#af7615",
+                "PLUM_11": "#6c6f7c",
+                "RED_NEW_54": "#c12a35",
+                "RED_360": "#f85b5f",
+                "RED_700": "#501012",
+                "NEUTRAL_69": "#323339",
+                "PRIMARY_300": "#c4c9ce",
+                "LOL_TEXT_DARK": "#94620f",
+                "PRIMARY_230": "#dbdee1",
+                "GREEN_NEW_1": "#cfffd7",
+                "OPACITY_BLACK_52": "#00000085",
+                "OPACITY_BLACK_92": "#000000eb",
+                "PREMIUM_NITRO_PINK_DARK": "#b64ab7",
+                "PRIMARY_660": "#232428",
+                "GREEN_460": "#1f703c",
+                "RED_460": "#bb3033",
+                "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2": "#1776cf",
+                "PREMIUM_TIER_2_PINK_FOR_GRADIENTS": "#ab5d8a",
+                "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS": "#8547c6",
+                "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2": "#b845c1",
+                "BRAND_530": "#505cdc",
+                "BRAND_330": "#a8aff8",
+                "GREEN_360": "#23a55a",
+                "YELLOW_430": "#9a650d",
+                "PRIMARY_700": "#1e1f22",
+                "PLUM_17": "#2c2d35"
+            }
+        }
+    }
+}
