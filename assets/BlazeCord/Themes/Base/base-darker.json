@@ -1,0 +1,1022 @@
+{
+  "id": "discord.darker",
+  "type": "theme",
+  "display": {
+    "name": "Discord's dark theme.",
+    "description": "Discord's default dark theme.",
+    "authors": {
+      "name": "Blaze",
+      "id": "300547560840495104"
+    }
+  },
+  "main": {
+    "base": "darker",
+    "colors": {
+      "semantic": {
+        "ACTION_SHEET_GRADIENT_BG": {
+          "value": "#1c1d23ff"
+        },
+        "ACTIVITY_CARD_BACKGROUND": {
+          "value": "#1e1f22ff"
+        },
+        "ACTIVITY_CARD_ICON_OVERLAY": {
+          "value": "#313338d8"
+        },
+        "ALERT_BG": {
+          "value": "#1c1d23ff"
+        },
+        "ANDROID_NAVIGATION_BAR_BACKGROUND": {
+          "value": "#0f1014ff"
+        },
+        "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
+          "value": "#0f10147f"
+        },
+        "ANDROID_RIPPLE": {
+          "value": "#ffffff11"
+        },
+        "APP_MESSAGE_EMBED_SECONDARY_TEXT": {
+          "value": "#ffffffb2"
+        },
+        "BACKGROUND_ACCENT": {
+          "value": "#383a43ff"
+        },
+        "BACKGROUND_BASE_LOW": {
+          "value": "#202024ff"
+        },
+        "BACKGROUND_BASE_LOWER": {
+          "value": "#1a1a1eff"
+        },
+        "BACKGROUND_BASE_LOWEST": {
+          "value": "#121214ff"
+        },
+        "BACKGROUND_FEEDBACK_CRITICAL": {
+          "value": "#d22d3914"
+        },
+        "BACKGROUND_FEEDBACK_INFO": {
+          "value": "#0074e314"
+        },
+        "BACKGROUND_FEEDBACK_POSITIVE": {
+          "value": "#00863a14"
+        },
+        "BACKGROUND_FEEDBACK_WARNING": {
+          "value": "#a1630014"
+        },
+        "BACKGROUND_FLOATING": {
+          "value": "#26272fff"
+        },
+        "BACKGROUND_MENTIONED": {
+          "value": "#fcc14514"
+        },
+        "BACKGROUND_MENTIONED_HOVER": {
+          "value": "#f0b23214"
+        },
+        "BACKGROUND_MESSAGE_AUTOMOD": {
+          "value": "#fa777b14"
+        },
+        "BACKGROUND_MESSAGE_AUTOMOD_HOVER": {
+          "value": "#f23f4319"
+        },
+        "BACKGROUND_MESSAGE_HIGHLIGHT": {
+          "value": "#949cf714"
+        },
+        "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": {
+          "value": "#949cf70f"
+        },
+        "BACKGROUND_MESSAGE_HOVER": {
+          "value": "#18191fff"
+        },
+        "BACKGROUND_MOBILE_PRIMARY": {
+          "value": "#1c1d23ff"
+        },
+        "BACKGROUND_MOBILE_SECONDARY": {
+          "value": "#1c1d23ff"
+        },
+        "BACKGROUND_MODIFIER_ACCENT": {
+          "value": "#6c6f7c1e"
+        },
+        "BACKGROUND_MODIFIER_ACTIVE": {
+          "value": "#4d505b7a"
+        },
+        "BACKGROUND_MODIFIER_HOVER": {
+          "value": "#4d505b4c"
+        },
+        "BACKGROUND_MODIFIER_SELECTED": {
+          "value": "#4d505b99"
+        },
+        "BACKGROUND_NESTED_FLOATING": {
+          "value": "#16161cff"
+        },
+        "BACKGROUND_PRIMARY": {
+          "value": "#1c1d23ff"
+        },
+        "BACKGROUND_SECONDARY": {
+          "value": "#26272fff"
+        },
+        "BACKGROUND_SECONDARY_ALT": {
+          "value": "#383a43ff"
+        },
+        "BACKGROUND_TERTIARY": {
+          "value": "#31323bff"
+        },
+        "BACKGROUND_TILE_GRADIENT_PINK_END": {
+          "value": "#6600664c"
+        },
+        "BACKGROUND_TILE_GRADIENT_PINK_START": {
+          "value": "#b3269c4c"
+        },
+        "BADGE_BRAND_BG": {
+          "value": "#c9cdfbff"
+        },
+        "BADGE_BRAND_TEXT": {
+          "value": "#4752c4ff"
+        },
+        "BG_BACKDROP": {
+          "value": "#000000b2"
+        },
+        "BG_BACKDROP_IMMERSIVE": {
+          "value": "#000000d8"
+        },
+        "BG_BACKDROP_NO_OPACITY": {
+          "value": "#000000ff"
+        },
+        "BG_BASE_PRIMARY": {
+          "value": "#1c1d23ff"
+        },
+        "BG_BASE_SECONDARY": {
+          "value": "#1c1d23ff"
+        },
+        "BG_BASE_TERTIARY": {
+          "value": "#131318ff"
+        },
+        "BG_BRAND": {
+          "value": "#5865f2ff"
+        },
+        "BG_MOD_FAINT": {
+          "value": "#6c6f7c1e"
+        },
+        "BG_MOD_STRONG": {
+          "value": "#6c6f7c3d"
+        },
+        "BG_MOD_SUBTLE": {
+          "value": "#6c6f7c28"
+        },
+        "BG_SURFACE_OVERLAY": {
+          "value": "#2c2d35ff"
+        },
+        "BG_SURFACE_OVERLAY_TMP": {
+          "value": "#2c2d35ff"
+        },
+        "BG_SURFACE_RAISED": {
+          "value": "#26272fff"
+        },
+        "BLACK": {
+          "value": "#000000ff"
+        },
+        "BLUR_FALLBACK": {
+          "value": "#2c2d35f4"
+        },
+        "BLUR_FALLBACK_PRESSED": {
+          "value": "#26272ff4"
+        },
+        "BORDER_FAINT": {
+          "value": "#6c6f7c0f"
+        },
+        "BORDER_STRONG": {
+          "value": "#6c6f7c38"
+        },
+        "BORDER_SUBTLE": {
+          "value": "#6c6f7c1e"
+        },
+        "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": {
+          "value": "#13131899"
+        },
+        "BUTTON_CREATOR_REVENUE_BACKGROUND": {
+          "value": "#207a8dff"
+        },
+        "BUTTON_DANGER_BACKGROUND": {
+          "value": "#da373cff"
+        },
+        "BUTTON_DANGER_BACKGROUND_ACTIVE": {
+          "value": "#8f2022ff"
+        },
+        "BUTTON_DANGER_BACKGROUND_DISABLED": {
+          "value": "#da373cff"
+        },
+        "BUTTON_DANGER_BACKGROUND_HOVER": {
+          "value": "#a12829ff"
+        },
+        "BUTTON_OUTLINE_BRAND_BACKGROUND": {
+          "value": "#ffffff00"
+        },
+        "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": {
+          "value": "#4752c4ff"
+        },
+        "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
+          "value": "#5865f2ff"
+        },
+        "BUTTON_OUTLINE_BRAND_BORDER": {
+          "value": "#5865f2ff"
+        },
+        "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": {
+          "value": "#4752c4ff"
+        },
+        "BUTTON_OUTLINE_BRAND_BORDER_HOVER": {
+          "value": "#5865f2ff"
+        },
+        "BUTTON_OUTLINE_BRAND_TEXT": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_BRAND_TEXT_ACTIVE": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_BRAND_TEXT_HOVER": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND": {
+          "value": "#ffffff00"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND_ACTIVE": {
+          "value": "#15562bff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BACKGROUND_HOVER": {
+          "value": "#248045ff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BORDER": {
+          "value": "#23a55aff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BORDER_ACTIVE": {
+          "value": "#15562bff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_BORDER_HOVER": {
+          "value": "#248045ff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_TEXT_ACTIVE": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_POSITIVE_TEXT_HOVER": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND": {
+          "value": "#ffffff00"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": {
+          "value": "#6c6f7cff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": {
+          "value": "#4d505bff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BORDER": {
+          "value": "#4e5058ff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": {
+          "value": "#6c6f7cff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": {
+          "value": "#4d505bff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_TEXT": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": {
+          "value": "#ffffffff"
+        },
+        "BUTTON_POSITIVE_BACKGROUND": {
+          "value": "#248045ff"
+        },
+        "BUTTON_POSITIVE_BACKGROUND_ACTIVE": {
+          "value": "#15562bff"
+        },
+        "BUTTON_POSITIVE_BACKGROUND_DISABLED": {
+          "value": "#248045ff"
+        },
+        "BUTTON_POSITIVE_BACKGROUND_HOVER": {
+          "value": "#1a6334ff"
+        },
+        "BUTTON_SECONDARY_BACKGROUND": {
+          "value": "#4d505bff"
+        },
+        "BUTTON_SECONDARY_BACKGROUND_ACTIVE": {
+          "value": "#818491ff"
+        },
+        "BUTTON_SECONDARY_BACKGROUND_HOVER": {
+          "value": "#6c6f7cff"
+        },
+        "CARD_GRADIENT_BG": {
+          "value": "#00000066"
+        },
+        "CARD_GRADIENT_PRESSED_BG": {
+          "value": "#0000007f"
+        },
+        "CARD_PRIMARY_BG": {
+          "value": "#26272fff"
+        },
+        "CARD_PRIMARY_PRESSED_BG": {
+          "value": "#212229ff"
+        },
+        "CARD_SECONDARY_BG": {
+          "value": "#212229ff"
+        },
+        "CARD_SECONDARY_PRESSED_BG": {
+          "value": "#18191fff"
+        },
+        "CHANNEL_ICON": {
+          "value": "#818491ff"
+        },
+        "CHANNELS_DEFAULT": {
+          "value": "#9597a3ff"
+        },
+        "CHANNELTEXTAREA_BACKGROUND": {
+          "value": "#383a43ff"
+        },
+        "CHAT_BANNER_BG": {
+          "value": "#1c1d23ff"
+        },
+        "CHAT_BORDER": {
+          "value": "#1c1d23ff"
+        },
+        "CHAT_INPUT_CONTAINER_BACKGROUND": {
+          "value": "#31323bff"
+        },
+        "COACHMARK_BG": {
+          "value": "#2c2d35ff"
+        },
+        "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
+          "value": "#ffffffd8"
+        },
+        "CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY": {
+          "value": "#ffffffb2"
+        },
+        "CONTENT_INVENTORY_OVERLAY_UI_MOD": {
+          "value": "#ffffffb2"
+        },
+        "CONTENT_INVENTORY_OVERLAY_UI_MOD_BG": {
+          "value": "#00000019"
+        },
+        "CONTEXT_MENU_BACKDROP_BACKGROUND": {
+          "value": "#000000b2"
+        },
+        "CONTROL_BRAND_FOREGROUND": {
+          "value": "#949cf7ff"
+        },
+        "CONTROL_BRAND_FOREGROUND_NEW": {
+          "value": "#949cf7ff"
+        },
+        "CUSTOM_STATUS_BUBBLE_BG": {
+          "value": "#2c2d35ff"
+        },
+        "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
+          "value": "#1c1d237f"
+        },
+        "DIVIDER_STRONG": {
+          "value": "#6c6f7c38"
+        },
+        "DIVIDER_SUBTLE": {
+          "value": "#6c6f7c1e"
+        },
+        "EMBED_BACKGROUND": {
+          "value": "#26272fff"
+        },
+        "EMBED_BACKGROUND_ALTERNATE": {
+          "value": "#26272fff"
+        },
+        "EMBED_TITLE": {
+          "value": "#e4e5e8ff"
+        },
+        "EXPRESSION_PICKER_BG": {
+          "value": "#1c1d23ff"
+        },
+        "EXPRESSIVE_GRADIENT_BLUE_END": {
+          "value": "#161a8a4c"
+        },
+        "EXPRESSIVE_GRADIENT_BLUE_START": {
+          "value": "#5865f24c"
+        },
+        "EXPRESSIVE_GRADIENT_GREEN_END": {
+          "value": "#0066384c"
+        },
+        "EXPRESSIVE_GRADIENT_GREEN_START": {
+          "value": "#21bb634c"
+        },
+        "EXPRESSIVE_GRADIENT_NITRO_GREEN_END": {
+          "value": "#1414cb66"
+        },
+        "EXPRESSIVE_GRADIENT_NITRO_GREEN_START": {
+          "value": "#21bb6366"
+        },
+        "EXPRESSIVE_GRADIENT_NITRO_PINK_END": {
+          "value": "#1414cb66"
+        },
+        "EXPRESSIVE_GRADIENT_NITRO_PINK_START": {
+          "value": "#8c138166"
+        },
+        "EXPRESSIVE_GRADIENT_PINK_END": {
+          "value": "#6600664c"
+        },
+        "EXPRESSIVE_GRADIENT_PINK_START": {
+          "value": "#b3269c4c"
+        },
+        "EXPRESSIVE_GRADIENT_PURPLE_END": {
+          "value": "#3e16894c"
+        },
+        "EXPRESSIVE_GRADIENT_PURPLE_START": {
+          "value": "#a056f24c"
+        },
+        "FOCUS_PRIMARY": {
+          "value": "#00aafcff"
+        },
+        "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": {
+          "value": "#212229cc"
+        },
+        "FORUM_POST_TAG_BACKGROUND": {
+          "value": "#212229e5"
+        },
+        "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
+          "value": "#1e1f22ff"
+        },
+        "HEADER_MUTED": {
+          "value": "#818491ff"
+        },
+        "HEADER_PRIMARY": {
+          "value": "#e4e5e8ff"
+        },
+        "HEADER_SECONDARY": {
+          "value": "#9597a3ff"
+        },
+        "ICON_MUTED": {
+          "value": "#6c6f7cff"
+        },
+        "ICON_PRIMARY": {
+          "value": "#dddee1ff"
+        },
+        "ICON_SECONDARY": {
+          "value": "#9597a3ff"
+        },
+        "ICON_TRANSPARENT": {
+          "value": "transparent"
+        },
+        "INFO_BOX_BACKGROUND": {
+          "value": "#00aafc19"
+        },
+        "INFO_DANGER_BACKGROUND": {
+          "value": "#f23f4319"
+        },
+        "INFO_DANGER_FOREGROUND": {
+          "value": "#f23f43ff"
+        },
+        "INFO_DANGER_TEXT": {
+          "value": "#ffffffff"
+        },
+        "INFO_HELP_BACKGROUND": {
+          "value": "#00aafc19"
+        },
+        "INFO_HELP_FOREGROUND": {
+          "value": "#00aafcff"
+        },
+        "INFO_HELP_TEXT": {
+          "value": "#ffffffff"
+        },
+        "INFO_POSITIVE_BACKGROUND": {
+          "value": "#23a55a19"
+        },
+        "INFO_POSITIVE_FOREGROUND": {
+          "value": "#23a55aff"
+        },
+        "INFO_POSITIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "INFO_WARNING_BACKGROUND": {
+          "value": "#f0b23219"
+        },
+        "INFO_WARNING_FOREGROUND": {
+          "value": "#f0b232ff"
+        },
+        "INFO_WARNING_TEXT": {
+          "value": "#ffffffff"
+        },
+        "INPUT_BACKGROUND": {
+          "value": "#0f1014d8"
+        },
+        "INPUT_BORDER": {
+          "value": "#6c6f7c51"
+        },
+        "INPUT_BORDER_CRITICAL_HOVER": {
+          "value": "#f16f6cff"
+        },
+        "INPUT_ERROR_BACKGROUND": {
+          "value": "#a128291e"
+        },
+        "INPUT_ERROR_BORDER": {
+          "value": "#f85b5fff"
+        },
+        "INPUT_ERROR_TEXT": {
+          "value": "#fbbabbff"
+        },
+        "INPUT_FOCUSED_BORDER": {
+          "value": "#6c6f7c51"
+        },
+        "INPUT_FOREGROUND_CRITICAL": {
+          "value": "#fa777bff"
+        },
+        "INPUT_FOREGROUND_DEFAULT": {
+          "value": "#efeff0ff"
+        },
+        "INPUT_PLACEHOLDER_TEXT": {
+          "value": "#818491ff"
+        },
+        "INTERACTIVE_ACTIVE": {
+          "value": "#f3f3f4ff"
+        },
+        "INTERACTIVE_HOVER": {
+          "value": "#dddee1ff"
+        },
+        "INTERACTIVE_MUTED": {
+          "value": "#4d505bff"
+        },
+        "INTERACTIVE_NORMAL": {
+          "value": "#c7c8ceff"
+        },
+        "LEADERBOARD_LEAGUE_BRAND_TEXT": {
+          "value": "#cbaa62ff"
+        },
+        "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
+          "value": "#2324287f"
+        },
+        "LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN": {
+          "value": "#00000006"
+        },
+        "LEGACY_BLUR_FALLBACK_DEFAULT": {
+          "value": "#232428f8"
+        },
+        "LEGACY_BLUR_FALLBACK_ULTRA_THIN": {
+          "value": "#000000f2"
+        },
+        "LIVE_STAGE_TILE_BORDER": {
+          "value": "#4d505b99"
+        },
+        "MENTION_BACKGROUND": {
+          "value": "#5865f27f"
+        },
+        "MENTION_FOREGROUND": {
+          "value": "#d4d7fcff"
+        },
+        "MESSAGE_REACTED_BACKGROUND": {
+          "value": "#5865f226"
+        },
+        "MESSAGE_REACTED_TEXT": {
+          "value": "#dee0fcff"
+        },
+        "MODAL_BACKGROUND": {
+          "value": "#31323bff"
+        },
+        "MODAL_FOOTER_BACKGROUND": {
+          "value": "#2c2d35ff"
+        },
+        "NAVIGATOR_HEADER_TINT": {
+          "value": "#ffffffff"
+        },
+        "NOTICE_BACKGROUND_POSITIVE": {
+          "value": "#002b0bff"
+        },
+        "OVERLAY_BACKDROP_DEFAULT": {
+          "value": "#000000b8"
+        },
+        "OVERLAY_BACKDROP_LIGHTBOX": {
+          "value": "#000000eb"
+        },
+        "PANEL_BG": {
+          "value": "#1c1d23ff"
+        },
+        "POLLS_NORMAL_FILL_HOVER": {
+          "value": "#313338ff"
+        },
+        "POLLS_NORMAL_IMAGE_BACKGROUND": {
+          "value": "#232428ff"
+        },
+        "POLLS_VICTOR_FILL": {
+          "value": "#23a55a33"
+        },
+        "POLLS_VOTED_FILL": {
+          "value": "#5865f233"
+        },
+        "PREMIUM_NITRO_PINK_TEXT": {
+          "value": "#c269c3ff"
+        },
+        "PROFILE_GRADIENT_NOTE_BACKGROUND": {
+          "value": "#0000004c"
+        },
+        "PROFILE_GRADIENT_OVERLAY": {
+          "value": "#00000099"
+        },
+        "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": {
+          "value": "#000000cc"
+        },
+        "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
+          "value": "#2324287f"
+        },
+        "PROFILE_GRADIENT_ROLE_PILL_BORDER": {
+          "value": "#ffffff33"
+        },
+        "PROFILE_GRADIENT_SECTION_BOX": {
+          "value": "#00000072"
+        },
+        "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
+          "value": "#818491ff"
+        },
+        "REDESIGN_BUTTON_ACTIVE_BACKGROUND": {
+          "value": "#248045ff"
+        },
+        "REDESIGN_BUTTON_ACTIVE_PRESSED_BACKGROUND": {
+          "value": "#1f703cff"
+        },
+        "REDESIGN_BUTTON_ACTIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_DANGER_BACKGROUND": {
+          "value": "#da373cff"
+        },
+        "REDESIGN_BUTTON_DANGER_PRESSED_BACKGROUND": {
+          "value": "#bb3033ff"
+        },
+        "REDESIGN_BUTTON_DANGER_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": {
+          "value": "#da373cff"
+        },
+        "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": {
+          "value": "#bb3033ff"
+        },
+        "REDESIGN_BUTTON_DESTRUCTIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND": {
+          "value": "#00000089"
+        },
+        "REDESIGN_BUTTON_OVERLAY_ALPHA_PRESSED_BACKGROUND": {
+          "value": "#000000a3"
+        },
+        "REDESIGN_BUTTON_OVERLAY_ALPHA_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_OVERLAY_BACKGROUND": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_OVERLAY_TEXT": {
+          "value": "#060607ff"
+        },
+        "REDESIGN_BUTTON_POSITIVE_BACKGROUND": {
+          "value": "#248045ff"
+        },
+        "REDESIGN_BUTTON_POSITIVE_PRESSED_BACKGROUND": {
+          "value": "#1f703cff"
+        },
+        "REDESIGN_BUTTON_POSITIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_PREMIUM_PRIMARY_BLUE_FOR_GRADIENT": {
+          "value": "#1776cfff"
+        },
+        "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
+          "value": "#ab5d8aff"
+        },
+        "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
+          "value": "#00000019"
+        },
+        "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
+          "value": "#8547c6ff"
+        },
+        "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT_2": {
+          "value": "#b845c1ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": {
+          "value": "#5865f200"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": {
+          "value": "#949cf7ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BACKGROUND": {
+          "value": "#505cdc00"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BORDER": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BACKGROUND": {
+          "value": "#505cdcff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BORDER": {
+          "value": "#949cf7ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BACKGROUND": {
+          "value": "#23286128"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BORDER": {
+          "value": "#7984f57f"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_TEXT": {
+          "value": "#949cf7ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ALT_TEXT": {
+          "value": "#949cf7ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_BACKGROUND": {
+          "value": "#5865f2ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_ON_BLURPLE_PRESSED_TEXT": {
+          "value": "#505cdcff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_OVERLAY_PRESSED_BACKGROUND": {
+          "value": "#dddee1ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_OVERLAY_TEXT": {
+          "value": "#0c0c10ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": {
+          "value": "#4752c4ff"
+        },
+        "REDESIGN_BUTTON_PRIMARY_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": {
+          "value": "#383a43ff"
+        },
+        "REDESIGN_BUTTON_SECONDARY_BORDER": {
+          "value": "#6c6f7c1e"
+        },
+        "REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND": {
+          "value": "#00000089"
+        },
+        "REDESIGN_BUTTON_SECONDARY_OVERLAY_PRESSED_BACKGROUND": {
+          "value": "#000000a3"
+        },
+        "REDESIGN_BUTTON_SECONDARY_OVERLAY_TEXT": {
+          "value": "#ffffffff"
+        },
+        "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": {
+          "value": "#4d505bff"
+        },
+        "REDESIGN_BUTTON_SECONDARY_PRESSED_BORDER": {
+          "value": "#6c6f7c0f"
+        },
+        "REDESIGN_BUTTON_SECONDARY_TEXT": {
+          "value": "#c7c8ceff"
+        },
+        "REDESIGN_BUTTON_SELECTED_BACKGROUND": {
+          "value": "#5865f23d"
+        },
+        "REDESIGN_BUTTON_SELECTED_PRESSED_BACKGROUND": {
+          "value": "#5865f247"
+        },
+        "REDESIGN_BUTTON_SELECTED_TEXT": {
+          "value": "#5865f2ff"
+        },
+        "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
+          "value": "#6c6f7c1e"
+        },
+        "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
+          "value": "#6c6f7c33"
+        },
+        "REDESIGN_BUTTON_TERTIARY_PRESSED_TEXT": {
+          "value": "#d3d5d9ff"
+        },
+        "REDESIGN_BUTTON_TERTIARY_TEXT": {
+          "value": "#c7c8ceff"
+        },
+        "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
+          "value": "#818491ff"
+        },
+        "REDESIGN_CHANNEL_NAME_TEXT": {
+          "value": "#e4e5e8ff"
+        },
+        "REDESIGN_CHAT_INPUT_BACKGROUND": {
+          "value": "#6c6f7c1e"
+        },
+        "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
+          "value": "#00000014"
+        },
+        "REDESIGN_INPUT_CONTROL_ACTIVE_BG": {
+          "value": "#31323bff"
+        },
+        "REDESIGN_INPUT_CONTROL_SELECTED": {
+          "value": "#5865f2ff"
+        },
+        "SPINE_DEFAULT": {
+          "value": "#4d505bff"
+        },
+        "SPOILER_HIDDEN_BACKGROUND": {
+          "value": "#41434dff"
+        },
+        "SPOILER_REVEALED_BACKGROUND": {
+          "value": "#6c6f7c28"
+        },
+        "STAGE_CARD_PILL_BG": {
+          "value": "#212229ff"
+        },
+        "STATUS_DANGER": {
+          "value": "#f23f43ff"
+        },
+        "STATUS_DANGER_BACKGROUND": {
+          "value": "#da373cff"
+        },
+        "STATUS_DANGER_TEXT": {
+          "value": "#ffffffff"
+        },
+        "STATUS_DND": {
+          "value": "#f23f43ff"
+        },
+        "STATUS_IDLE": {
+          "value": "#f0b232ff"
+        },
+        "STATUS_OFFLINE": {
+          "value": "#9597a3ff"
+        },
+        "STATUS_ONLINE": {
+          "value": "#23a55aff"
+        },
+        "STATUS_POSITIVE": {
+          "value": "#23a55aff"
+        },
+        "STATUS_POSITIVE_BACKGROUND": {
+          "value": "#248045ff"
+        },
+        "STATUS_POSITIVE_TEXT": {
+          "value": "#ffffffff"
+        },
+        "STATUS_SPEAKING": {
+          "value": "#23a55aff"
+        },
+        "STATUS_WARNING": {
+          "value": "#f0b232ff"
+        },
+        "STATUS_WARNING_BACKGROUND": {
+          "value": "#f0b232ff"
+        },
+        "STATUS_WARNING_TEXT": {
+          "value": "#000000ff"
+        },
+        "TEXT_BRAND": {
+          "value": "#949cf7ff"
+        },
+        "TEXT_DANGER": {
+          "value": "#fa777bff"
+        },
+        "TEXT_LINK": {
+          "value": "#00aafcff"
+        },
+        "TEXT_LINK_LOW_SATURATION": {
+          "value": "#2eb6ffff"
+        },
+        "TEXT_LOW_CONTRAST": {
+          "value": "#6c6f7cff"
+        },
+        "TEXT_MESSAGE_PREVIEW_LOW_SAT": {
+          "value": "#6c6f7cff"
+        },
+        "TEXT_MUTED": {
+          "value": "#818491ff"
+        },
+        "TEXT_MUTED_ON_DEFAULT": {
+          "value": "#b5bac1ff"
+        },
+        "TEXT_NORMAL": {
+          "value": "#c7c8ceff"
+        },
+        "TEXT_POSITIVE": {
+          "value": "#2dc771ff"
+        },
+        "TEXT_PRIMARY": {
+          "value": "#c7c8ceff"
+        },
+        "TEXT_SECONDARY": {
+          "value": "#9597a3ff"
+        },
+        "TEXT_WARNING": {
+          "value": "#f0b232ff"
+        },
+        "THEME_LOCKED_BLUR_FALLBACK": {
+          "value": "#1e1f22f4"
+        },
+        "THREAD_CHANNEL_SPINE": {
+          "value": "#4d505bff"
+        },
+        "TOAST_BG": {
+          "value": "#2c2d35ff"
+        },
+        "TYPING_INDICATOR_BG": {
+          "value": "#1c1d23ff"
+        },
+        "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
+          "value": "#1c1d237f"
+        },
+        "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
+          "value": "#2c2d3566"
+        },
+        "VOICE_VIDEO_VIDEO_TILE_BLUR_FALLBACK": {
+          "value": "#1e1f227a"
+        },
+        "WHITE": {
+          "value": "#ffffffff"
+        }
+      },
+      "raw": {
+        "PLUM_20": "#1c1d23",
+        "PRIMARY_700": "#1e1f22",
+        "PRIMARY_600": "#313338",
+        "PLUM_24": "#0f1014",
+        "WHITE": "#ffffff",
+        "PLUM_15": "#383a43",
+        "NEUTRAL_82": "#202024",
+        "NEUTRAL_86": "#1a1a1e",
+        "NEUTRAL_92": "#121214",
+        "OPACITY_RED_8": "#d22d3914",
+        "OPACITY_BLUE_8": "#0074e314",
+        "OPACITY_GREEN_8": "#00863a14",
+        "OPACITY_YELLOW_8": "#a1630014",
+        "PLUM_18": "#26272f",
+        "YELLOW_260": "#fcc145",
+        "YELLOW_300": "#f0b232",
+        "RED_345": "#fa777b",
+        "RED_400": "#f23f43",
+        "BRAND_360": "#949cf7",
+        "PLUM_21": "#18191f",
+        "PLUM_11": "#6c6f7c",
+        "PLUM_13": "#4d505b",
+        "PLUM_22": "#16161c",
+        "PLUM_16": "#31323b",
+        "ILLO_PINK_7": "#660066",
+        "ILLO_PINK_5": "#b3269c",
+        "BRAND_260": "#c9cdfb",
+        "BRAND_560": "#4752c4",
+        "BLACK": "#000000",
+        "PLUM_23": "#131318",
+        "BRAND_500": "#5865f2",
+        "PLUM_17": "#2c2d35",
+        "TEAL_430": "#207a8d",
+        "RED_430": "#da373c",
+        "RED_530": "#8f2022",
+        "RED_500": "#a12829",
+        "GREEN_530": "#15562b",
+        "GREEN_430": "#248045",
+        "GREEN_360": "#23a55a",
+        "PRIMARY_500": "#4e5058",
+        "GREEN_500": "#1a6334",
+        "PLUM_10": "#818491",
+        "PLUM_19": "#212229",
+        "PLUM_9": "#9597a3",
+        "PLUM_3": "#e4e5e8",
+        "ILLO_BLUE_6": "#161a8a",
+        "ILLO_BLUE_4": "#5865f2",
+        "ILLO_GREEN_7": "#006638",
+        "ILLO_GREEN_5": "#21bb63",
+        "ILLO_NITRO_BLUE": "#1414cb",
+        "ILLO_PINK_6": "#8c1381",
+        "ILLO_PURPLE_6": "#3e1689",
+        "ILLO_PURPLE_4": "#a056f2",
+        "BLUE_345": "#00aafc",
+        "PLUM_4": "#dddee1",
+        "TRANSPARENT": "transparent",
+        "RED_NEW_32": "#f16f6c",
+        "RED_360": "#f85b5f",
+        "RED_260": "#fbbabb",
+        "NEUTRAL_5": "#efeff0",
+        "PLUM_1": "#f3f3f4",
+        "PLUM_6": "#c7c8ce",
+        "LOL_TEXT_LIGHT": "#cbaa62",
+        "PRIMARY_660": "#232428",
+        "BRAND_230": "#d4d7fc",
+        "BRAND_200": "#dee0fc",
+        "GREEN_NEW_87": "#002b0b",
+        "OPACITY_BLACK_72": "#000000b8",
+        "OPACITY_BLACK_92": "#000000eb",
+        "PREMIUM_NITRO_PINK_LIGHT": "#c269c3",
+        "GREEN_460": "#1f703c",
+        "RED_460": "#bb3033",
+        "PRIMARY_860": "#060607",
+        "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2": "#1776cf",
+        "PREMIUM_TIER_2_PINK_FOR_GRADIENTS": "#ab5d8a",
+        "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS": "#8547c6",
+        "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2": "#b845c1",
+        "BRAND_530": "#505cdc",
+        "BRAND_700": "#232861",
+        "BRAND_400": "#7984f5",
+        "PLUM_25": "#0c0c10",
+        "PLUM_5": "#d3d5d9",
+        "PLUM_14": "#41434d",
+        "BLUE_330": "#2eb6ff",
+        "PRIMARY_330": "#b5bac1",
+        "GREEN_330": "#2dc771"
+      }
+    }
+  }
+}
