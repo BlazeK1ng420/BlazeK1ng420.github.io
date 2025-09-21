@@ -2,7 +2,7 @@
   "id": "discord.dark",
   "type": "theme",
   "display": {
-    "name": "Discord Legacy",
+    "name": "Dark Legacy",
     "description": "Discord's dark theme before the rebrand.",
     "authors": {
       "name": "Blaze",
@@ -10,7 +10,7 @@
     }
   },
   "main": {
-    "base": "dark",
+    "base": "darker",
     "colors": {
       "semantic": {
         "ACTION_SHEET_GRADIENT_BG": {
