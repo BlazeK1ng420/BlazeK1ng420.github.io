@@ -10,7 +10,7 @@
     }
   },
   "main": {
-    "base": "darker",
+    "base": "dark",
     "colors": {
       "semantic": {
         "ACTION_SHEET_GRADIENT_BG": {
