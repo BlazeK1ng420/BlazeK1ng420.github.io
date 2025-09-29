@@ -458,7 +458,7 @@
           "value": "#b5bac1ff"
         },
         "ICON_TRANSPARENT": {
-          "value": "transparent"
+          "value": "#00000000"
         },
         "INFO_BOX_BACKGROUND": {
           "value": "#00aafc19"
