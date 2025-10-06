@@ -4,8 +4,8 @@
   "preview": {
     "upper": "ABCDEFGHIJKLMNOPQRSTUZWXYZ",
     "lower": "abcdefghijklmnopqrstuzwxyz",
-    "nums": "0123456789",
-  }
+    "nums": "0123456789"
+  },
   "main": {
     "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Electrolize/Electrolize-Regular.ttf?raw=1",
     "ggsans-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Electrolize/Electrolize-Regular.ttf?raw=1",
