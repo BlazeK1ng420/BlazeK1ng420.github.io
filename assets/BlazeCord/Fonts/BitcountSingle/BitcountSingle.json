@@ -1,13 +1,7 @@
 {
   "spec": 1,
   "name": "BitcountSingle",
-  "id": "font.bitcountsingle",
-  "previewText": "ABCDEFGHIJKLMNOPQRSTUZWXYZ | abcdefghijklmnopqrstuzwxyz | 0123456789",
-  "preview": {
-    "upper": "ABCDEFGHIJKLMNOPQRSTUZWXYZ",
-    "lower": "abcdefghijklmnopqrstuzwxyz",
-    "nums": "0123456789"
-  },
+  "previewText": "ABCDEFGHIJKLMNOPQRSTUZWXYZ - abcdefghijklmnopqrstuzwxyz - 0123456789",
   "main": {
     "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/BitcountSingle/BitcountSingle-Bold.ttf?raw=1",
     "ggsans-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/BitcountSingle/BitcountSingle-Bold.ttf?raw=1",
