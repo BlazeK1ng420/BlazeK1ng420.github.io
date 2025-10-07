@@ -1,7 +1,8 @@
 {
-  "spec": 3,
-  "id": "font.bitcountsingle",
+  "spec": 1,
   "name": "BitcountSingle",
+  "id": "font.bitcountsingle",
+  "previewText": "ABCDEFGHIJKLMNOPQRSTUZWXYZ | abcdefghijklmnopqrstuzwxyz | 0123456789",
   "preview": {
     "upper": "ABCDEFGHIJKLMNOPQRSTUZWXYZ",
     "lower": "abcdefghijklmnopqrstuzwxyz",
