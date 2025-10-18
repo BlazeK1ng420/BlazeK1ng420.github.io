@@ -1,0 +1,33 @@
+{
+  "id": "font.discord",
+  "name": "Discord",
+  "previewText": "abcdefghijklmnopqrstuvwxyz\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789!?@#$%^&*+-×÷=_~()[]{}<>/\\|"
+  "main": {
+    "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ABCGintoNord-ExtraBold.ttf?raw=1",
+    "ggmono-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggmono-Bold.ttf?raw=1",
+    "ggmono-Normal": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggmono-Normal.ttf?raw=1",
+    "ggsans-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-Bold.ttf?raw=1",
+    "ggsans-BoldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-BoldItalic.ttf?raw=1",
+    "ggsans-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-ExtraBold.ttf?raw=1",
+    "ggsans-ExtraBoldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-ExtraBoldItalic.ttf?raw=1",
+    "ggsans-Medium": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-Medium.ttf?raw=1",
+    "ggsans-MediumItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-MediumItalic.ttf?raw=1",
+    "ggsans-Normal": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-Normal.ttf?raw=1",
+    "ggsans-NormalItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-NormalItalic.ttf?raw=1",
+    "ggsans-Semibold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-Semibold.ttf?raw=1",
+    "ggsans-SemiboldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggsans-SemiboldItalic.ttf?raw=1",
+    "NotoSans-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-Bold.ttf?raw=1",
+    "NotoSans-BoldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-BoldItalic.ttf?raw=1",
+    "NotoSans-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-ExtraBold.ttf?raw=1",
+    "NotoSans-ExtraBoldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-ExtraBoldItalic.ttf?raw=1",
+    "NotoSans-Medium": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-Medium.ttf?raw=1",
+    "NotoSans-MediumItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-MediumItalic.ttf?raw=1",
+    "NotoSans-Normal": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-Normal.ttf?raw=1",
+    "NotoSans-NormalItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-NormalItalic.ttf?raw=1",
+    "NotoSans-Semibold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-Semibold.ttf?raw=1",
+    "NotoSans-SemiboldItalic": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/NotoSans-SemiboldItalic.ttf?raw=1",
+    "SourceCodePro-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/SourceCodePro-Bold.ttf?raw=1",
+    "SourceCodePro-Normal": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/SourceCodePro-Normal.ttf?raw=1"
+
+  }
+}
