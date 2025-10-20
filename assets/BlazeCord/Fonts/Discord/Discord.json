@@ -1,7 +1,7 @@
 {
   "id": "font.discord",
   "name": "Discord",
-  "previewText": "abcdefghijklmnopqrstuvwxyz\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789!?@#$%^&*+-×÷=_~()[]{}<>/\\|"
+  "previewText": "abcdefghijklmnopqrstuvwxyz\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789!?@#$%^&*+-×÷=_~()[]{}<>/\\|",
   "main": {
     "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ABCGintoNord-ExtraBold.ttf?raw=1",
     "ggmono-Bold": "https://raw.githubusercontent.com/BlazeK1ng420/BlazeK1ng420.github.io/refs/heads/base/assets/BlazeCord/Fonts/Discord/ggmono-Bold.ttf?raw=1",
