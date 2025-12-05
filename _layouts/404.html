@@ -3,28 +3,50 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
-{% include head.html %}
+<html lang="en">
+  {% include bs5/head.html %}
+  {% include bs5/navbar.html %}
+  
 
-<body>
-    <section class="hero is-fullheight has-text-centered has-background-black-ter">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-1 is-uppercase has-text-weight-bold has-text-white">
-                    {{page.title}}
-                </h1>
-                <h3 class="is-uppercase has-text-weight-medium is-marginless has-text-grey-light">
-                    {{content}}
-                </h3>
-                <hr>
-                <div class="columns is-marginless is-inline-flex-desktop">
-                    <a href="{{site.url}}{{site.baseurl}}/"
-                        class="button is-white column is-rounded is-outlined is-uppercase has-text-weight-normal">Home</a>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
 
+    .bg-spin {
+      background-image: url('/assets/images/bg.png'); /* change as needed */
+      background-size: cover;
+      background-position: center;
+      animation: spinBackground 60s linear infinite;
+    }
+
+    @keyframes spinBackground {
+      0% {
+        background-position: center center;
+        transform: rotate(0deg);
+      }
+      100% {
+        background-position: center center;
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+  <body class="bg-dark text-white d-flex align-items-center justify-content-center bg-spin">
+    <div class="container text-center py-5">
+      <h1 class="display-3 text-uppercase fw-bold text-white">
+        {{ page.title }}
+      </h1>
+      <h3 class="text-uppercase fw-medium text-light mb-4">
+        {{ content }}
+      </h3>
+      <hr class="border-light">
+      <div class="d-flex justify-content-center gap-3">
+        <a href="{{ site.url }}{{ site.baseurl }}/" class="btn btn-outline-light rounded-pill text-uppercase">
+          Home
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
