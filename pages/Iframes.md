@@ -1,5 +1,5 @@
 ---
 title: You Win! 🎊 
-layout: iframes
+layout: iframe
 permalink: /giveaway/itunes/50usd
 ---
